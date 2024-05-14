@@ -1,0 +1,28 @@
+.main-services {
+  display: flex;
+  flex-direction: row;
+  padding: 0 40px 0;
+}
+
+.main-services__text {
+  width: 50%;
+}
+
+.main-services__dropdowns {
+  width: 50%;
+}
+
+.main-services__bulletpoints-class {
+  margin-top: -100%;
+  transition: all 1s;
+  /* animation: fade-in 3s linear; */
+}
+
+/* @keyframes fade-in {
+  from {
+    height: 0;
+  }
+  to {
+    height: 1;
+  }
+} */

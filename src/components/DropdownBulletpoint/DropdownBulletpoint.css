@@ -1,0 +1,20 @@
+.dropdown-bulletpoint {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  margin-top: -10%;
+  transition: all 0.5s;
+}
+
+.dropdown-bulletpoint__expanded {
+  margin-top: 0;
+}
+
+.dropdown-bulletpoint__bulletsymbol {
+  height: 24px;
+}
+
+.dropdown-bulletpoint__text {
+  padding-left: 20px;
+}
