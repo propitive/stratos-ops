@@ -10,6 +10,7 @@ function MainServices() {
       <div className="main-services__dropdowns">
         <Dropdown
           bulletSymbol={checkSquare}
+          dropdownClassName=""
           dropdownContent={dropdownContentMenu}
         />
       </div>

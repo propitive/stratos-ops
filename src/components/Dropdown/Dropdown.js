@@ -1,10 +1,9 @@
 import DropdownItem from "../DropdownItem/DropdownItem";
 
-const Dropdown = ({ bulletSymbol, dropdownContent }) => {
+const Dropdown = ({ bulletSymbol, dropdownClassName, dropdownContent }) => {
   return (
-    <ul className="dropdown__ul">
+    <ul className={"dropdown__ul " + dropdownClassName}>
       {dropdownContent.map((service) => {
-        console.log(service.content);
         return (
           <DropdownItem
             bulletSymbol={bulletSymbol}
