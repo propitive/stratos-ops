@@ -8,7 +8,39 @@
 .dropdown-item__title {
 }
 
-.dropdown-item__active-button {
+.dropdown-item__button {
+  background: url(../../images/icons/chevron-up.svg) center no-repeat;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  animation: secondRotation 0.2s linear forwards;
+}
+
+.dropdown-item__button-active {
+  animation: firstRotation 0.2s linear forwards;
+}
+
+@keyframes firstRotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+@keyframes secondRotation {
+  0% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+/* .dropdown-item__active-button {
   background: url(../../images/icons/chevron-up.svg) center no-repeat;
   height: 40px;
   width: 40px;
@@ -24,7 +56,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
-}
+} */
 
 .dropdown-item__bulletpoints {
   width: 100%;
@@ -32,3 +64,21 @@
   padding: 0;
   overflow: hidden;
 }
+
+/* @keyframes firstRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-180deg);
+  }
+}
+
+@keyframes firstRotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-180deg);
+  }
+} */

@@ -11,12 +11,18 @@ const DropdownItem = ({
   title,
 }) => {
   const [isActive, setIsActive] = useState(false);
+  const dropdownItemButton = isActive ? "dropdown-item__button-active" : null;
 
   return (
     <>
       <li className={"dropdown-item " + liClassName} key={keyValue}>
         <p className="dropdown-item__title">{title}</p>
-        {isActive ? (
+        <button
+          className={"dropdown-item__button " + dropdownItemButton}
+          type="button"
+          onClick={() => setIsActive(!isActive)}
+        ></button>
+        {/* {isActive ? (
           <button
             className="dropdown-item__active-button"
             type="button"
@@ -28,7 +34,7 @@ const DropdownItem = ({
             type="button"
             onClick={() => setIsActive(!isActive)}
           ></button>
-        )}
+        )} */}
       </li>
       <ul className="dropdown-item__bulletpoints">
         {content.map((bulletpoint) => {
