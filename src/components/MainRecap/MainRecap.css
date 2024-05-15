@@ -1,0 +1,62 @@
+.main-recap {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  padding: 0 40px 0;
+}
+
+.main-recap__text-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-recap__text-container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: 20px;
+}
+
+.main-recap__text {
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-weight: 600;
+}
+
+.main-recap__button {
+  width: 200px;
+  height: 60px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.main-recap__paragraph-section {
+  width: 50%;
+}
+
+.main-recap__headers {
+}
+
+.main-recap__header-mission {
+}
+
+.main-recap__header-mission-active {
+}
+
+.main-recap__header-principles {
+}
+
+.main-recap__header-principles-active {
+}
+
+.main-recap__header-choose {
+}
+
+.main-recap__header-choose-active {
+}
+
+.main-recap__paragraph {
+}
