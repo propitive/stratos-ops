@@ -38,24 +38,59 @@
 }
 
 .main-recap__headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 60px 0 0;
 }
 
 .main-recap__header-mission {
+  font-family: "Roboto Condensed", sans-serif, Arial;
+  transition: color 0.15s ease-in;
+  margin: 0 10px 0 0;
+}
+
+.main-recap__header-mission:hover {
+  cursor: pointer;
+  color: #f98125;
 }
 
 .main-recap__header-mission-active {
+  color: #f98125;
+}
+
+.main-recap__divider {
+  border: solid 1px;
 }
 
 .main-recap__header-principles {
+  font-family: "Roboto Condensed", sans-serif, Arial;
+  transition: color 0.15s ease-in;
+  margin: 0 10px 0;
+}
+
+.main-recap__header-principles:hover {
+  cursor: pointer;
+  color: #f98125;
 }
 
 .main-recap__header-principles-active {
+  color: #f98125;
 }
 
 .main-recap__header-choose {
+  font-family: "Roboto Condensed", sans-serif, Arial;
+  transition: color 0.15s ease-in;
+  margin: 0 0 0 10px;
+}
+
+.main-recap__header-choose:hover {
+  cursor: pointer;
+  color: #f98125;
 }
 
 .main-recap__header-choose-active {
+  color: #f98125;
 }
 
 .main-recap__paragraph {

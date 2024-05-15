@@ -23,26 +23,28 @@ function MainRecap() {
       </div>
       <div className="main-recap__paragraph-section">
         <div className="main-recap__headers">
-          <button
+          <h2
             className={"main-recap__header-mission " + headerMissionClassName}
             onClick={() => setActiveSection(1)}
           >
             Mission statement
-          </button>
-          <button
+          </h2>
+          <div className="main-recap__divider"></div>
+          <h2
             className={
               "main-recap__header-principles " + headerPrinciplesClassName
             }
             onClick={() => setActiveSection(2)}
           >
             Our principles
-          </button>
-          <button
+          </h2>
+          <div className="main-recap__divider"></div>
+          <h2
             className={"main-recap__header-choose " + headerChooseClassName}
             onClick={() => setActiveSection(3)}
           >
             Why choose us
-          </button>
+          </h2>
         </div>
         {activeSection === 1 && (
           <p className="main-recap__paragraph">
