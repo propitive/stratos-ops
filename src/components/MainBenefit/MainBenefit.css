@@ -1,0 +1,19 @@
+.main-benefit {
+  width: 320px;
+}
+
+.main-benefit__icon {
+  height: 40px;
+}
+
+.main-benefit__subtitle {
+  font-family: "Radio Canada Big", sans-serif, Arial;
+  margin: 10px 0 10px;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.main-benefit__paragraph {
+  margin: 0;
+  font-size: 18px;
+}

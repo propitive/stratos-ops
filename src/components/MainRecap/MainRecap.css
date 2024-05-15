@@ -21,6 +21,7 @@
 }
 
 .main-recap__text {
+  font-family: "Radio Canada Big", sans-serif, Arial;
   font-size: 30px;
   letter-spacing: -1px;
   font-weight: 600;
@@ -45,7 +46,7 @@
 }
 
 .main-recap__header-mission {
-  font-family: "Roboto Condensed", sans-serif, Arial;
+  font-family: "Radio Canada Big", sans-serif, Arial;
   transition: color 0.15s ease-in;
   margin: 0 10px 0 0;
 }
@@ -64,7 +65,7 @@
 }
 
 .main-recap__header-principles {
-  font-family: "Roboto Condensed", sans-serif, Arial;
+  font-family: "Radio Canada Big", sans-serif, Arial;
   transition: color 0.15s ease-in;
   margin: 0 10px 0;
 }
@@ -79,7 +80,7 @@
 }
 
 .main-recap__header-choose {
-  font-family: "Roboto Condensed", sans-serif, Arial;
+  font-family: "Radio Canada Big", sans-serif, Arial;
   transition: color 0.15s ease-in;
   margin: 0 0 0 10px;
 }
