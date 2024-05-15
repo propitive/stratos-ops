@@ -15,6 +15,7 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+  padding: 0;
   animation: secondRotation 0.2s linear forwards;
 }
 

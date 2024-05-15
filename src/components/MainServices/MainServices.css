@@ -14,15 +14,5 @@
 
 .main-services__bulletpoints-class {
   margin-top: -100%;
-  transition: all 1s;
-  /* animation: fade-in 3s linear; */
+  /* transition: all 1s; */
 }
-
-/* @keyframes fade-in {
-  from {
-    height: 0;
-  }
-  to {
-    height: 1;
-  }
-} */
