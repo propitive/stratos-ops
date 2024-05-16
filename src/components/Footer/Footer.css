@@ -1,0 +1,88 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  border: none;
+  background-color: #191970;
+  position: relative;
+  flex-direction: row;
+  font-family: "Roboto Condensed", sans-serif, Arial;
+  margin: 0;
+  padding: 80px 200px 150px;
+}
+
+.footer__container {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  border: none;
+  flex-direction: row;
+}
+
+.footer__column {
+  color: #f5f0f0;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.footer__text {
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0;
+  transition: color 0.15s ease-in;
+}
+
+.footer__text:hover {
+  color: #f98125;
+}
+
+.footer__author {
+  position: absolute;
+  color: #f5f0f0;
+  bottom: 40px;
+}
+
+.footer__author-a {
+  text-decoration: none;
+  color: #f5f0f0;
+  cursor: pointer;
+}
+
+.footer__icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.footer__facebook {
+  width: 40px;
+  height: 40px;
+}
+
+.footer__email {
+  width: 40px;
+  height: 40px;
+  margin-top: 1px;
+}
+
+@media screen and (max-width: 1000px) {
+  .footer {
+    padding: 80px 100px 150px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    padding: 80px 50px 150px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .footer {
+    padding: 80px 30px 150px;
+  }
+  .footer__text {
+    font-size: 15px;
+  }
+}
