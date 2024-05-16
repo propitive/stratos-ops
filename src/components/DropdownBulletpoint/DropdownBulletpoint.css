@@ -1,8 +1,7 @@
 .dropdown-bulletpoint {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-
+  gap: 25px;
   margin-top: -10%;
   transition: all 0.3s;
 }
@@ -13,6 +12,7 @@
 
 .dropdown-bulletpoint__bulletsymbol {
   height: 24px;
+  margin-top: 16px;
 }
 
 .dropdown-bulletpoint__text {

@@ -1,18 +1,36 @@
 .main-services {
   display: flex;
   flex-direction: row;
-  padding: 0 40px 0;
+  padding: 0 40px 60px;
 }
 
 .main-services__text {
   width: 50%;
+  padding: 100px 0 0;
+}
+
+.main-services__text-container {
+  width: 550px;
+  margin: 0 auto 0;
+}
+
+.main-services__header {
+  font-family: "Radio Canada Big", sans-serif, Arial;
+  font-size: 30px;
+  letter-spacing: -1px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+}
+
+.main-services__paragraph {
+  margin: 0;
 }
 
 .main-services__dropdowns {
   width: 50%;
+  padding: 110px 0 0;
 }
 
 .main-services__bulletpoints-class {
   margin-top: -100%;
-  /* transition: all 1s; */
 }
