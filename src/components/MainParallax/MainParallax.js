@@ -1,9 +1,9 @@
 import { Parallax } from "react-parallax";
-import parallaxMain from "../../images/parallax/parallaxMain.jpg";
+import parallaxMainDarker from "../../images/parallax/parallaxMainDarker.jpg";
 
 function MainParallax() {
   return (
-    <Parallax strength={400} bgImage={parallaxMain}>
+    <Parallax strength={400} bgImage={parallaxMainDarker}>
       <div className="main__parallax">
         <p className="main__parallax-text">
           Transforming businesses with robust{" "}
@@ -11,7 +11,7 @@ function MainParallax() {
           <span className="main__parallax-bold-text">cloud innovations</span>
         </p>
       </div>
-      <div className="main__parallax-overlay"></div>
+      {/* <div className="main__parallax-overlay"></div> */}
     </Parallax>
   );
 }

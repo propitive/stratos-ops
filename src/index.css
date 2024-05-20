@@ -1,11 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Radio+Canada+Big:wght@700&display=swap");
 
+@import url("/src/components/About/About.css");
 @import url("/src/components/App/App.css");
 @import url("/src/components/BookOnlineButton/BookOnlineButton.css");
 @import url("/src/components/Dropdown/Dropdown.css");
 @import url("/src/components/DropdownBulletpoint/DropdownBulletpoint.css");
 @import url("/src/components/DropdownItem/DropdownItem.css");
+@import url("/src/components/DropdownMenu/DropdownMenu.css");
 @import url("/src/components/Footer/Footer.css");
 @import url("/src/components/Header/Header.css");
 @import url("/src/components/Main/Main.css");

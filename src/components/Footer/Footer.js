@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import facebookIcon from "../../images/icons/iconFacebook.svg";
-import facebookIconHovered from "../../images/icons/iconFacebookHovered.svg";
+import linkedinIcon from "../../images/icons/iconLinkedin.svg";
+import linkedIconHovered from "../../images/icons/iconLinkedinHovered.svg";
 import emailIcon from "../../images/icons/iconEmail.svg";
 import emailIconHovered from "../../images/icons/iconMailHovered.svg";
 
 function Footer() {
-  const [isFacebookHovered, setIsFacebookHovered] = useState(false);
+  const [isLinkedinHovered, setIsLinkedinHovered] = useState(false);
   const [isMailHovered, setIsMailHovered] = useState(false);
 
   return (
@@ -39,14 +39,14 @@ function Footer() {
               href="https://www.facebook.com/profile.php?id=100088328243988"
               target="_blank"
               rel="noreferrer"
-              className="footer__facebook"
+              className="footer__linkedin"
             >
               <img
-                className="footer__facebook"
-                src={isFacebookHovered ? facebookIconHovered : facebookIcon}
-                alt="Facebook Icon"
-                onMouseEnter={() => setIsFacebookHovered(true)}
-                onMouseLeave={() => setIsFacebookHovered(false)}
+                className="footer__linkedin"
+                src={isLinkedinHovered ? linkedIconHovered : linkedinIcon}
+                alt="Linkedin Icon"
+                onMouseEnter={() => setIsLinkedinHovered(true)}
+                onMouseLeave={() => setIsLinkedinHovered(false)}
               ></img>
             </a>
             <a

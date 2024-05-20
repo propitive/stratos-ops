@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import About from "../About/About";
 
 function App() {
   return (
@@ -12,7 +13,12 @@ function App() {
       <ScrollToTop />
       <Header />
       <Switch>
-        <Main />
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/">
+          <Main />
+        </Route>
       </Switch>
       <Footer />
     </>

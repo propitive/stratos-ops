@@ -42,6 +42,31 @@
   color: #f98125;
 }
 
+.header__list-item-menu {
+  cursor: pointer;
+  transition: color 0.15s ease-in;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.header__list-item-menu-hovered {
+  cursor: pointer;
+  transition: color 0.15s ease-in;
+  color: white;
+  height: 79px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 51px;
+}
+
+.header__list-item-menu-hovered:hover {
+  cursor: pointer;
+  color: #f98125;
+}
+
 .header__button {
   width: 200px;
   height: 50px;
