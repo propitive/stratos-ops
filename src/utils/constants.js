@@ -56,21 +56,3 @@ export const menuNavItems = [
     className: "nav-item",
   },
 ];
-
-/////////////// SERVICES ///////////////
-
-////// BACKUP //////
-
-export const backupBenefits = [
-  {
-    image: "",
-    title: "",
-  },
-];
-
-export const backupTechTools = [
-  {
-    image: "",
-    title: "",
-  },
-];
