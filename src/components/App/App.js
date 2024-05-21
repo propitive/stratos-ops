@@ -5,6 +5,7 @@ import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Main from "../Main/Main";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
+import ServiceBackup from "../ServiceBackup/ServiceBackup";
 import About from "../About/About";
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
       <Switch>
         <Route path="/about">
           <About />
+        </Route>
+        <Route path="/services/backupAndRecovery">
+          <ServiceBackup />
         </Route>
         <Route path="/">
           <Main />

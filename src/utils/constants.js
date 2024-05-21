@@ -1,8 +1,9 @@
 import aboutChecklist from "../images/icons/about/aboutChecklist.png";
 import aboutHandshake from "../images/icons/about/aboutHandshake.png";
-import aboutMagnifier from "../images/icons/about/aboutMagnifier.png";
 import aboutHourglass from "../images/icons/about/aboutHourglass.png";
 import aboutChef from "../images/icons/about/aboutChef.png";
+
+/////////////// ABOUT ///////////////
 
 export const aboutInfoCards = [
   {
@@ -26,6 +27,8 @@ export const aboutInfoCards = [
       "With several years of invaluable experience in the industry, our seasoned team brings a wealth of knowledge to every pizza. Using specialized cooking techniques with our traditional brick ovens contributes to the unique and delicious flavor found in every bite.",
   },
 ];
+
+/////////////// HEADER ///////////////
 
 export const menuNavItems = [
   {
@@ -54,7 +57,18 @@ export const menuNavItems = [
   },
 ];
 
-export const techToolsBackup = [
+/////////////// SERVICES ///////////////
+
+////// BACKUP //////
+
+export const backupBenefits = [
+  {
+    image: "",
+    title: "",
+  },
+];
+
+export const backupTechTools = [
   {
     image: "",
     title: "",

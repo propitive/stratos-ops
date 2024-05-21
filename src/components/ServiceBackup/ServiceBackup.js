@@ -1,5 +1,7 @@
-import { techToolsBackup } from "../../utils/constants";
+import { backupBenefits, backupTechTools } from "../../utils/constants";
 
+import ServiceDivBenefits from "../ServiceDivBenefits/ServiceDivBenefits";
+import ServiceDivCta from "../ServiceDivCta/ServiceDivCta";
 import ServiceDivHeader from "../ServiceDivHeader/ServiceDivHeader";
 import ServiceDivOverview from "../ServiceDivOverview/ServiceDivOverview";
 import ServiceDivTechTools from "../ServiceDivTechTools/ServiceDivTechTools";
@@ -10,7 +12,7 @@ function ServiceBackup() {
       <ServiceDivHeader title="Backup and Recovery" />
       <ServiceDivTechTools
         subtitle="Stratos Operations offers a wide range of log monitoring from cloud services for flexible cloud imfrastructure backup. What tools are suitable for a successful migration to the cloud?"
-        tools={techToolsBackup}
+        tools={backupTechTools}
       />
       <ServiceDivOverview
         bulletpoints={[
@@ -31,6 +33,8 @@ function ServiceBackup() {
           </h3>
         }
       />
+      <ServiceDivBenefits benefits={backupBenefits} />
+      <ServiceDivCta image={""} paragraph="This is a paragraph" />
     </div>
   );
 }
