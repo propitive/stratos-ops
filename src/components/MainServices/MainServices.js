@@ -9,8 +9,12 @@ function MainServices() {
       <div className="main-services__text">
         <div className="main-services__text-container">
           <h2 className="main-services__header">
-            Transforming businesses: Security, Cloud, Efficiency - Our
-            expertise, your advantage.
+            Transforming businesses:{" "}
+            <span className="main-services__bold-text">Security</span>,{" "}
+            <span className="main-services__bold-text">Cloud</span>,{" "}
+            <span className="main-services__bold-text">Efficiency</span> - Our
+            expertise,{" "}
+            <span className="main-services__bold-text">your advantage</span>.
           </h2>
           <p className="main-services__paragraph">
             Breathe, breathe in the air Don't be afraid to care Leave, but don't

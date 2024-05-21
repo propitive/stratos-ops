@@ -22,6 +22,10 @@
   margin: 20px 0 10px;
 }
 
+.main-services__bold-text {
+  color: #f98125;
+}
+
 .main-services__paragraph {
   margin: 0;
 }

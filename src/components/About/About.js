@@ -27,7 +27,7 @@ function About() {
         <div className="about__showcase">
           <h2 className="about__showcase-header">
             <a className="about__header__subtitle__emphasis">Simplifying</a> The
-            Catering Experience
+            Cloud Experience
           </h2>
           <div className="about__showcase-items">
             <div className="about__showcase-item">

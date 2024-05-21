@@ -53,3 +53,10 @@ export const menuNavItems = [
     className: "nav-item",
   },
 ];
+
+export const techToolsBackup = [
+  {
+    image: "",
+    title: "",
+  },
+];
