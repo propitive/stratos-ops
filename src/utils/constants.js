@@ -33,20 +33,20 @@ export const aboutInfoCards = [
 export const menuNavItems = [
   {
     id: 1,
-    title: "Security Consulting and Hardening",
-    path: "/services/securityConsultingAndHardening",
+    title: "Security Consulting",
+    path: "/services/securityConsulting",
     className: "nav-item",
   },
   {
     id: 2,
-    title: "Cloud Migration and Implementations",
-    path: "/services/cloudMigrationAndImplementation",
+    title: "Cloud Migration",
+    path: "/services/cloudMigration",
     className: "nav-item",
   },
   {
     id: 3,
-    title: "CI/CD Processes",
-    path: "/services/ciCdProcesses",
+    title: "CI/CD",
+    path: "/services/ciCd",
     className: "nav-item",
   },
   {

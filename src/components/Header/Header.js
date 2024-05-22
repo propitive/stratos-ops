@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import LogoNoLetters from "../../images/logoBlackAndWhiteNoLetters.png";
+import LogoBlackNoLetters from "../../images/logoBlackNoLetters.png";
 import { SidebarData } from "../../utils/constants";
 
 import BookOnlineButton from "../BookOnlineButton/BookOnlineButton";

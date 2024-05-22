@@ -1,10 +1,10 @@
 function ServiceDivTechTools({ subtitle, tools }) {
   return (
     <div className="service-div-tech-tools">
-      <h2 className="service-div-tech-tools__title">
-        Tools abd Technologies we use
+      <h2 className="service-div-tech-tools__header">
+        Tools and Technologies we use
       </h2>
-      <h3 className="service-div-tech-tools__subtitle">{subtitle}</h3>
+      {/* <h3 className="service-div-tech-tools__subtitle">{subtitle}</h3> */}
       <div className="service-div-tech-tools__items">
         {tools.map((item, i) => {
           return (
