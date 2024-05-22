@@ -95,17 +95,18 @@ export const backupTechToolsSubtitle =
 export const backupOverviewBulletpoints = [
   <p className="service-div-overview__point-text">
     Just
-    <span className="service-div-overview__point-bold">15%</span> of
+    <span className="service-div-overview__point-bold"> 15% </span>of
     organizations believe that their DevOps adoption is complely mature and
     secure
   </p>,
   <p className="service-div-overview__point-text">
     Cybercrime is up
-    <span className="service-div-overview__point-bold">600%</span> post pandemic
+    <span className="service-div-overview__point-bold"> 600% </span>post
+    pandemic
   </p>,
   <p className="service-div-overview__point-text">
     Organizations using AI and security automation detected & contained breaches
-    <span className="service-div-overview__point-bold">27%</span> faster
+    <span className="service-div-overview__point-bold"> 27% </span>faster
   </p>,
 ];
 

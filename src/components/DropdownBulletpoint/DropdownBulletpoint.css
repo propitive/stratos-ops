@@ -17,4 +17,7 @@
 
 .dropdown-bulletpoint__text {
   padding: 0;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
