@@ -12,17 +12,17 @@
   justify-content: center;
   align-items: center;
   letter-spacing: 1px;
-  color: rgb(181, 143, 94);
+  color: #b24475;
 }
 
 .service-div-tech-tools__image-wrapper:hover ~ .service-div-tech-tools__title {
-  border-bottom: 3px solid rgb(181, 143, 94);
+  border-bottom: 3px solid #b24475;
   transform: translate(0, -15px);
 }
 
 .service-div-tech-tools__image-wrapper {
-  width: 200px;
-  height: 200px;
+  width: 80px;
+  height: 80px;
   overflow: hidden;
   border-radius: 50%;
   transition: transform 0.2s ease-in;
@@ -33,15 +33,15 @@
 }
 
 .service-div-tech-tools__image {
-  width: 200px;
-  height: 200px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   cursor: pointer;
   transition: transform 0.2s ease-in;
 }
 
 .service-div-tech-tools__image:hover {
-  transform: scale(1.1);
+  /* transform: scale(1.1); */
 }
 
 .service-div-tech-tools__title {
@@ -61,7 +61,7 @@
 }
 
 .service-div-tech-tools__title:hover {
-  border-bottom: 3px solid rgb(181, 143, 94);
+  border-bottom: 3px solid #b24475;
   transition: all 0.5s ease;
 }
 

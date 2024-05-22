@@ -16,6 +16,16 @@
 @import url("/src/components/MainParallax/MainParallax.css");
 @import url("/src/components/MainRecap/MainRecap.css");
 @import url("/src/components/MainServices/MainServices.css");
+@import url("/src/components/ServiceBackup/ServiceBackup.css");
+@import url("/src/components/ServiceCicd/ServiceCicd.css");
+@import url("/src/components/ServiceCloud/ServiceCloud.css");
+@import url("/src/components/ServiceDivAvantages/ServiceDivAvantages.css");
+@import url("/src/components/ServiceDivBenefits/ServiceDivBenefits.css");
+@import url("/src/components/ServiceDivCta/ServiceDivCta.css");
+@import url("/src/components/ServiceDivHeader/ServiceDivHeader.css");
+@import url("/src/components/ServiceDivOverview/ServiceDivOverview.css");
+@import url("/src/components/ServiceDivTechTools/ServiceDivTechTools.css");
+@import url("/src/components/ServiceSecurity/ServiceSecurity.css");
 
 body {
   margin: 0;

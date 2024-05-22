@@ -19,17 +19,17 @@
 }
 
 .dropdownMenu__li:last-child:hover {
-  background-color: #191970;
+  background-color: #212356;
   width: 235px;
-  color: #f98125;
+  color: #b24475;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
 
 .dropdownMenu__li:hover {
-  background-color: #191970;
+  background-color: #212356;
   width: 235px;
-  color: #f98125;
+  color: #b24475;
 }
 
 .dropdownMenu__li:last-child {
@@ -47,5 +47,5 @@
 }
 
 .nav-item:hover {
-  color: #f98125;
+  color: #b24475;
 }

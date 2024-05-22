@@ -131,7 +131,7 @@
 }
 
 .about__header__subtitle__emphasis {
-  color: #f98125;
+  color: #b24475;
 }
 
 .about__showcase {
@@ -140,7 +140,7 @@
   align-items: center;
   padding: 40px 0 40px;
   width: calc(100% - 80px);
-  background-color: #191970;
+  background-color: #212356;
   margin: 0 auto 0;
   font-family: "Radio Canada Big", sans-serif, Arial;
   border-radius: 20px;
@@ -187,7 +187,7 @@
 .about__showcase-item__title {
   margin: 0;
   text-align: center;
-  color: #f98125;
+  color: #b24475;
   font-weight: 700;
   font-size: 35px;
 }

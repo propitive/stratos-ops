@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   border: none;
-  background-color: #191970;
+  background-color: #212356;
   position: relative;
   flex-direction: row;
   font-family: "Roboto Condensed", sans-serif, Arial;
@@ -34,7 +34,7 @@
 }
 
 .footer__text:hover {
-  color: #f98125;
+  color: #b24475;
 }
 
 .footer__author {
