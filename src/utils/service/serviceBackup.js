@@ -38,7 +38,7 @@ export const backupBenefits = [
     title: "Strengthens the security system",
   },
   {
-    image: code,
+    image: hardDrive,
     title: "Enhanced mean time to resolution",
   },
 ];

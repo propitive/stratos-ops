@@ -131,7 +131,7 @@
 }
 
 .about__header__subtitle__emphasis {
-  color: #fdbb30;
+  color: #00b3b3;
 }
 
 .about__showcase {
@@ -187,7 +187,7 @@
 .about__showcase-item__title {
   margin: 0;
   text-align: center;
-  color: #fdbb30;
+  color: #00b3b3;
   font-weight: 700;
   font-size: 35px;
 }

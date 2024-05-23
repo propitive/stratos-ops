@@ -1,5 +1,5 @@
 import { Parallax } from "react-parallax";
-import parallaxMainDarker from "../../images/parallax/parallaxMain.jpg";
+import parallaxMainDarker from "../../images/parallax/parallaxMainDarker.jpg";
 
 function MainParallax() {
   return (

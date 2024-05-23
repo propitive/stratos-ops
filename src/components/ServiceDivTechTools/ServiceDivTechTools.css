@@ -23,11 +23,11 @@
   justify-content: center;
   align-items: center;
   letter-spacing: 1px;
-  color: #fdbb30;
+  color: #00b3b3;
 }
 
 .service-div-tech-tools__image-wrapper:hover ~ .service-div-tech-tools__title {
-  border-bottom: 3px solid #fdbb30;
+  border-bottom: 3px solid #00b3b3;
   transform: translate(0, -15px);
 }
 
@@ -77,7 +77,7 @@
 }
 
 .service-div-tech-tools__title:hover {
-  border-bottom: 3px solid #fdbb30;
+  border-bottom: 3px solid #00b3b3;
   transition: all 0.5s ease;
 }
 
