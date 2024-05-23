@@ -4,7 +4,7 @@ function ServiceDivOverview({ bulletpoints, paragraph, title }) {
       <div className="service-div-overview__text">
         <div className="service-div-overview__text-container">
           {title}
-          <p className="service-div-overview__paragraph">{paragraph}</p>
+          {paragraph}
         </div>
       </div>
       <div className="service-div-overview__points">

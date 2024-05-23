@@ -1,11 +1,11 @@
 .service-div-tech-tools {
-  padding: 80px 40px 60px;
+  padding: 80px 40px 120px;
 }
 
 .service-div-tech-tools__header {
   text-align: center;
   margin: 0 0 30px;
-  font-size: 40px;
+  font-size: 48px;
   font-family: "Radio Canada Big", sans-serif, Arial;
 }
 
@@ -23,11 +23,11 @@
   justify-content: center;
   align-items: center;
   letter-spacing: 1px;
-  color: #b24475;
+  color: #fdbb30;
 }
 
 .service-div-tech-tools__image-wrapper:hover ~ .service-div-tech-tools__title {
-  border-bottom: 3px solid #b24475;
+  border-bottom: 3px solid #fdbb30;
   transform: translate(0, -15px);
 }
 
@@ -37,6 +37,11 @@
   overflow: hidden;
   border-radius: 50%;
   transition: transform 0.2s ease-in;
+  background: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
 }
 
 .service-div-tech-tools__image-wrapper:hover {
@@ -72,7 +77,7 @@
 }
 
 .service-div-tech-tools__title:hover {
-  border-bottom: 3px solid #b24475;
+  border-bottom: 3px solid #fdbb30;
   transition: all 0.5s ease;
 }
 

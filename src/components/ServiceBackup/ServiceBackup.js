@@ -8,6 +8,7 @@ import {
   backupTechToolsSubtitle,
 } from "../../utils/service/serviceBackup";
 import backupCtaImage from "../../images/service/cta/backupCta.png";
+import backupCtaTestImage from "../../images/service/cta/testPicture.png";
 
 import ServiceDivBenefits from "../ServiceDivBenefits/ServiceDivBenefits";
 import ServiceDivCta from "../ServiceDivCta/ServiceDivCta";
@@ -29,7 +30,10 @@ function ServiceBackup() {
         title={backupOverviewTitle}
       />
       <ServiceDivBenefits benefits={backupBenefits} />
-      <ServiceDivCta image={backupCtaImage} paragraph={backupCtaParagraph} />
+      <ServiceDivCta
+        image={backupCtaTestImage}
+        paragraph={backupCtaParagraph}
+      />
     </div>
   );
 }

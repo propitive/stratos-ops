@@ -40,7 +40,7 @@
 
 .header__list-item:hover {
   cursor: pointer;
-  color: #b24475;
+  color: #fdbb30;
 }
 
 .header__list-item-menu {
@@ -65,7 +65,7 @@
 
 .header__list-item-menu-hovered:hover {
   cursor: pointer;
-  color: #b24475;
+  color: #fdbb30;
 }
 
 .header__button {

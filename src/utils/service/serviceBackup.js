@@ -48,10 +48,6 @@ export const backupCtaParagraph =
 
 export const backupTechTools = [
   {
-    image: argocd,
-    title: "ArgoCD",
-  },
-  {
     image: bitbucket,
     title: "Bitbucket",
   },
@@ -62,10 +58,6 @@ export const backupTechTools = [
   {
     image: droneci,
     title: "DroneCI",
-  },
-  {
-    image: flux,
-    title: "Flux",
   },
   {
     image: github,
@@ -82,10 +74,6 @@ export const backupTechTools = [
   {
     image: teamcity,
     title: "teamcity",
-  },
-  {
-    image: travisci,
-    title: "Travis CI",
   },
 ];
 
@@ -110,8 +98,25 @@ export const backupOverviewBulletpoints = [
   </p>,
 ];
 
-export const backupOverviewParagraph =
-  "DevSecOps as a practice and culture has taken the IT world by storm. For eons, IT security, operational, and development teams have functioned independently leading to frequent clashes in objectives that ultimately delayed delivery timelines. A common scenario was software being newly deployed to run critical systems after repeated testing and iterations only to be blocked by a security filter predicting vulnerabilities in the codebase.This necessitated the rise of modernized application, software building, testing, and deployment environments that integrated security checks, frameworks, and tools at every step of the operational process. The modernized development environments are realized with CI/CD (Continuous Integration/Continuous Delivery) pipelines and security integration of the same drives the core of a firm’s DevSecOps model.";
+export const backupOverviewParagraph = (
+  <p className="service-div-overview__paragraph">
+    DevSecOps as a practice and culture has taken the IT world by storm. For
+    eons, IT security, operational, and development teams have functioned
+    independently leading to frequent clashes in objectives that ultimately
+    delayed delivery timelines. A common scenario was software being newly
+    deployed to run critical systems after repeated testing and iterations only
+    to be blocked by a security filter predicting vulnerabilities in the
+    codebase.
+    <br />
+    <br />
+    This necessitated the rise of modernized application, software building,
+    testing, and deployment environments that integrated security checks,
+    frameworks, and tools at every step of the operational process. The
+    modernized development environments are realized with CI/CD (Continuous
+    Integration/Continuous Delivery) pipelines and security integration of the
+    same drives the core of a firm’s DevSecOps model.
+  </p>
+);
 
 export const backupOverviewTitle = (
   <h3 className="service-div-overview__title">

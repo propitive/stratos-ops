@@ -1,0 +1,44 @@
+.service-div-cta {
+  display: flex;
+  flex-direction: row;
+  padding: 80px 40px 100px;
+}
+
+.service-div-cta__image-container {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  flex-wrap: wrap;
+  width: 50%;
+}
+
+.service-div-cta__image {
+  width: 500px;
+  margin: 0 60px 0 0;
+}
+
+.service-div-cta__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 580px;
+}
+
+.service-div-cta__title {
+  text-align: start;
+  margin: 0 0 10px;
+  font-size: 48px;
+  font-family: "Radio Canada Big", sans-serif, Arial;
+}
+
+.service-div-cta__paragraph {
+  margin: 0 0 20px;
+  font-size: 19px;
+  font-family: "Roboto", sans-serif;
+}
+
+.service-div-cta__button {
+  width: 200px;
+  height: 60px;
+  font-size: 17px;
+}

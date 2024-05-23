@@ -13,7 +13,7 @@
 }
 
 .dropdownMenu__li {
-  background-color: rgba(25, 25, 112, 0.6);
+  background-color: rgba(33, 35, 86, 0.6);
   cursor: pointer;
   font-size: 23px;
 }
@@ -21,7 +21,7 @@
 .dropdownMenu__li:last-child:hover {
   background-color: #212356;
   width: 235px;
-  color: #b24475;
+  color: #fdbb30;
   border-bottom-left-radius: 10%;
   border-bottom-right-radius: 10%;
 }
@@ -29,7 +29,7 @@
 .dropdownMenu__li:hover {
   background-color: #212356;
   width: 235px;
-  color: #b24475;
+  color: #fdbb30;
 }
 
 .dropdownMenu__li:last-child {
@@ -47,5 +47,5 @@
 }
 
 .nav-item:hover {
-  color: #b24475;
+  color: #fdbb30;
 }
