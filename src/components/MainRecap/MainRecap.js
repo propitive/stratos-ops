@@ -1,7 +1,7 @@
 import { useState } from "react";
 import BookOnlineButton from "../BookOnlineButton/BookOnlineButton";
 
-function MainRecap() {
+function MainRecap({ handleOpenGetAQuote }) {
   const [activeSection, setActiveSection] = useState(1);
   const headerMissionClassName =
     activeSection === 1 ? "main-recap__header-mission-active" : null;
@@ -18,7 +18,10 @@ function MainRecap() {
             Stratos Operations: fortify, migrate, automate - empowering your
             business with security, cloud, and recovery expertise.
           </span>
-          <BookOnlineButton className="main-recap__button" />
+          <BookOnlineButton
+            className="main-recap__button"
+            handleOpenGetAQuote={handleOpenGetAQuote}
+          />
         </div>
       </div>
       <div className="main-recap__paragraph-section">

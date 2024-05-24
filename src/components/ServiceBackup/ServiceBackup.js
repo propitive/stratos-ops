@@ -16,7 +16,7 @@ import ServiceDivHeader from "../ServiceDivHeader/ServiceDivHeader";
 import ServiceDivOverview from "../ServiceDivOverview/ServiceDivOverview";
 import ServiceDivTechTools from "../ServiceDivTechTools/ServiceDivTechTools";
 
-function ServiceBackup() {
+function ServiceBackup({ handleOpenGetAQuote }) {
   return (
     <div className="service-backup">
       <ServiceDivHeader title="Backup and Recovery" />
@@ -31,6 +31,7 @@ function ServiceBackup() {
       />
       <ServiceDivBenefits benefits={backupBenefits} />
       <ServiceDivCta
+        handleOpenGetAQuote={handleOpenGetAQuote}
         image={backupCtaTestImage}
         paragraph={backupCtaParagraph}
       />

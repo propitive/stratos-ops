@@ -1,6 +1,9 @@
-function BookOnlineButton({ className }) {
+function BookOnlineButton({ className, handleOpenGetAQuote }) {
   return (
-    <button className={"book-online-button " + className}>
+    <button
+      className={"book-online-button " + className}
+      onClick={handleOpenGetAQuote}
+    >
       GET A QUOTE
       <svg
         fill="currentColor"

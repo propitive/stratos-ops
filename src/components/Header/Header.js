@@ -7,7 +7,7 @@ import { SidebarData } from "../../utils/constants";
 import BookOnlineButton from "../BookOnlineButton/BookOnlineButton";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
 
-function Header({ handleVisibleReset }) {
+function Header({ handleOpenGetAQuote, handleVisibleReset }) {
   const [isDropdownMenu, setIsDropdownMenu] = useState(false);
   const [sidebar, setSidebar] = useState(false);
   const liMenuClassName = isDropdownMenu
@@ -57,7 +57,10 @@ function Header({ handleVisibleReset }) {
             <li className="header__list-item">About Us</li>
           </Link>
         </ul>
-        <BookOnlineButton className="header__button" />
+        <BookOnlineButton
+          className="header__button"
+          handleOpenGetAQuote={handleOpenGetAQuote}
+        />
       </div>
     </header>
   );
