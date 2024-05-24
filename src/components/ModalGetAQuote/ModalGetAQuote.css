@@ -92,7 +92,6 @@
   flex-direction: row;
   justify-content: space-between;
   margin-bottom: 10px;
-  resize: none;
 }
 
 .form__input {
@@ -112,6 +111,7 @@
 .form__input-message-container {
   width: 466px;
   height: 95px;
+  resize: none;
 }
 
 .form__input-span {
