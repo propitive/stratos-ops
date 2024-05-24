@@ -13,7 +13,7 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
   const number = useRef();
   const service = useRef();
   const message = useRef();
-  const newsletter = useRef();
+  const company = useRef();
   const form = useRef();
 
   const handleInputClear = () => {
@@ -22,7 +22,7 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
     number.current.clearValue();
     service.current.clearValue();
     message.current.clearValue();
-    newsletter.current.clearValue();
+    company.current.clearValue();
   };
 
   const handleCloseOnOverlayClick = (event) => {
@@ -76,32 +76,45 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
         onSubmit={sendEmail}
       >
         <h2 className="modal__title">Get A Quote</h2>
-        <div className="form__input-box form__input-name">
-          <input
-            className="form__input"
-            name="user-name"
-            type="text"
-            required
-          />
-          <span className="form__input-span">Name</span>
+        <div className="form__input-container">
+          <div className="form__input-box form__input-name">
+            <input
+              className="form__input"
+              name="user-name"
+              type="text"
+              required
+            />
+            <span className="form__input-span">Name</span>
+          </div>
+          <div className="form__input-box orm__input-email">
+            <input
+              className="form__input"
+              name="user-email"
+              type="text"
+              required
+            />
+            <span className="form__input-span">Email</span>
+          </div>
         </div>
-        <div className="form__input-box orm__input-email">
-          <input
-            className="form__input"
-            name="user-email"
-            type="text"
-            required
-          />
-          <span className="form__input-span">Email</span>
-        </div>{" "}
-        <div className="form__input-box form__input-number">
-          <input
-            className="form__input"
-            name="user-number"
-            type="text"
-            required
-          />
-          <span className="form__input-span">Contact No</span>
+        <div className="form__input-container">
+          <div className="form__input-box form__input-number">
+            <input
+              className="form__input"
+              name="user-number"
+              type="text"
+              required
+            />
+            <span className="form__input-span">Contact No</span>
+          </div>
+          <div className="form__input-box form__input-company">
+            <input
+              className="form__input"
+              name="user-company"
+              type="text"
+              required
+            />
+            <span className="form__input-span">Company</span>
+          </div>
         </div>
         <Select
           options={serviceOptions}
@@ -111,6 +124,7 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
           name="user-service"
           className="react-select__container"
           classNamePrefix="react-select"
+          placeholder="Service"
           styles={{
             control: (baseStyles) => ({
               ...baseStyles,
@@ -121,7 +135,7 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
           ref={service}
         />
         <div className="form__input-box form__input-message">
-          <input
+          <textarea
             className="form__input form__input-message-container"
             name="user-message"
             type="text"
