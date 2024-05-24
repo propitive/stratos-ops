@@ -122,7 +122,7 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
         />
         <div className="form__input-box form__input-message">
           <input
-            className="form__input"
+            className="form__input form__input-message-container"
             name="user-message"
             type="text"
             required
