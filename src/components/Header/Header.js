@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
+import * as FaIcons from "react-icons/fa";
+import * as AiIcons from "react-icons/ai";
 import LogoNoLetters from "../../images/logoBlackAndWhiteNoLetters.png";
 import LogoBlackNoLetters from "../../images/logoBlackNoLetters.png";
 import { SidebarData } from "../../utils/constants";
@@ -61,6 +63,58 @@ function Header({ handleOpenGetAQuote, handleVisibleReset }) {
           className="header__button"
           handleOpenGetAQuote={handleOpenGetAQuote}
         />
+      </div>
+      <div className="menu__container">
+        <div className="navbar">
+          <Link to="/" style={{ textDecoration: "none", alignSelf: "center" }}>
+            <img className="header__logo" src={LogoNoLetters} />
+          </Link>
+          <Link to="#" className="menu-bars">
+            <FaIcons.FaBars
+              style={{
+                color: "white",
+              }}
+              onClick={showSidebar}
+            />
+          </Link>
+        </div>
+        <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
+          <div
+            className={`nav-menu__backdrop ${
+              sidebar ? "nav-menu__backdrop__open" : ""
+            }`}
+            onClick={handleCloseOnOverlayClick}
+          ></div>
+          <ul className="nav-menu-items">
+            <li className="navbar-toggle">
+              <Link to="#" className="menu-bars" onClick={showSidebar}>
+                <AiIcons.AiOutlineClose
+                  style={{
+                    color: "white",
+                  }}
+                />
+              </Link>
+            </li>
+            {SidebarData.map((item, index) => {
+              return (
+                <li key={index} className={item.cName}>
+                  <Link to={item.path}>
+                    <span>{item.title}</span>
+                  </Link>
+                </li>
+              );
+            })}
+            <Link
+              to="/contact-form"
+              style={{ textDecoration: "none", alignSelf: "center" }}
+            >
+              <BookOnlineButton
+                className="nav-menu__button"
+                handleOpenGetAQuote={handleOpenGetAQuote}
+              />
+            </Link>
+          </ul>
+        </nav>
       </div>
     </header>
   );
