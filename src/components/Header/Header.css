@@ -195,13 +195,13 @@
   height: 45px;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1100px) {
   .header {
     padding: 0 20px 0;
   }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 850px) {
   .header {
     height: 90px;
   }

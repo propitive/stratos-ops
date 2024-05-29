@@ -1,12 +1,17 @@
 .main-recap {
   display: flex;
   flex-direction: row;
+  /* justify-content: center;
+    gap: 50px; */
   height: 400px;
   padding: 30px 40px 30px;
 }
 
 .main-recap__text-section {
+  /* width: 100%;
+  max-width: 600px; */
   width: 50%;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +21,8 @@
 .main-recap__text-container {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 100%;
+  max-width: 600px;
   gap: 20px;
 }
 
@@ -35,6 +41,8 @@
 }
 
 .main-recap__paragraph-section {
+  /* width: 100%;
+  max-width: 740px; */
   width: 50%;
 }
 
@@ -98,4 +106,183 @@
   font-size: 19px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+}
+
+.main-recap__paragraph-bold-text {
+  color: #00b3b3;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 1500px) {
+  .main-recap {
+    justify-content: space-between;
+    /* gap: 50px; */
+  }
+  .main-recap__text-section {
+    /* width: 100%; */
+    width: max-content;
+    /* max-width: 600px; */
+  }
+  .main-recap__paragraph-section {
+    width: 100%;
+    max-width: 650px;
+  }
+}
+
+@media screen and (max-width: 1425px) {
+  .main-recap {
+    height: 380px;
+  }
+  .main-recap__text-section {
+    width: 100%;
+    max-width: 600px;
+  }
+  .main-recap__paragraph-section {
+    width: 100%;
+    max-width: 570px;
+  }
+  .main-recap__headers {
+    padding: 40px 0 0;
+  }
+  .main-recap__header-mission {
+    font-size: 22px;
+  }
+  .main-recap__header-principles {
+    font-size: 22px;
+  }
+  .main-recap__header-choose {
+    font-size: 22px;
+  }
+  .main-recap__paragraph {
+    margin: 10px 0 0;
+  }
+}
+
+@media screen and (max-width: 1330px) {
+  .main-recap__text-section {
+    max-width: 500px;
+  }
+  .main-recap__text-container {
+    max-width: 500px;
+  }
+  .main-recap__text {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .main-recap {
+    height: 360px;
+  }
+  .main-recap__paragraph-section {
+    max-width: 530px;
+  }
+  .main-recap__header-mission {
+    font-size: 20px;
+  }
+  .main-recap__header-principles {
+    font-size: 20px;
+  }
+  .main-recap__header-choose {
+    font-size: 20px;
+  }
+  .main-recap__text-section {
+    max-width: 456px;
+  }
+  .main-recap__text-container {
+    max-width: 456px;
+  }
+  .main-recap__button {
+    width: 180px;
+    height: 50px;
+  }
+  .main-recap__paragraph {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1230px) {
+  .main-recap {
+    flex-direction: column-reverse;
+    height: 480px;
+    padding: 60px 40px 80px;
+    /* gap: 80px; */
+  }
+  .main-recap__text-section {
+    max-width: none;
+    background-color: #e5e5e5;
+    padding: 30px 0 30px;
+    border-radius: 10px;
+  }
+  .main-recap__text-container {
+    flex-direction: row;
+    max-width: none;
+    justify-content: center;
+    gap: 50px;
+  }
+  .main-recap__text {
+    font-size: 30px;
+    max-width: 600px;
+  }
+  .main-recap__button {
+    width: 220px;
+    height: 60px;
+    align-self: center;
+  }
+  .main-recap__paragraph-section {
+    max-width: none;
+  }
+  .main-recap__headers {
+    padding: 0;
+  }
+  .main-recap__header-mission {
+    font-size: 25px;
+  }
+  .main-recap__header-principles {
+    font-size: 25px;
+  }
+  .main-recap__header-choose {
+    font-size: 25px;
+  }
+  .main-recap__paragraph {
+    font-size: 20px;
+    margin: 20px 0 0;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .main-recap {
+    height: 450px;
+  }
+  .main-recap__text {
+    font-size: 25px;
+    /* max-width: 540px; */
+    max-width: 499px;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .main-recap {
+    height: 430px;
+    padding: 50px 40px 70px;
+  }
+  .main-recap__text {
+    font-size: 22px;
+    /* max-width: 460px; */
+    max-width: 434px;
+  }
+  .main-recap__button {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main-recap__text {
+    font-size: 22px;
+    /* max-width: 460px; */
+    max-width: 434px;
+  }
+  .main-recap__button {
+    width: 200px;
+  }
 }

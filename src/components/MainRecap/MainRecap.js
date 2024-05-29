@@ -2,7 +2,7 @@ import { useState } from "react";
 import BookOnlineButton from "../BookOnlineButton/BookOnlineButton";
 
 function MainRecap({ handleOpenGetAQuote }) {
-  const [activeSection, setActiveSection] = useState(1);
+  const [activeSection, setActiveSection] = useState(2);
   const headerMissionClassName =
     activeSection === 1 ? "main-recap__header-mission-active" : null;
   const headerPrinciplesClassName =
@@ -16,7 +16,13 @@ function MainRecap({ handleOpenGetAQuote }) {
         <div className="main-recap__text-container">
           <span className="main-recap__text">
             Stratos Operations: fortify, migrate, automate - empowering your
-            business with security, cloud, and recovery expertise.
+            business with{" "}
+            <span className="main-recap__paragraph-bold-text">security</span>,{" "}
+            <span className="main-recap__paragraph-bold-text">cloud</span>, and{" "}
+            <span className="main-recap__paragraph-bold-text">
+              recovery expertise
+            </span>
+            .
           </span>
           <BookOnlineButton
             className="main-recap__button"
@@ -51,39 +57,56 @@ function MainRecap({ handleOpenGetAQuote }) {
         </div>
         {activeSection === 1 && (
           <p className="main-recap__paragraph">
-            Money, get away You get a good job with more pay and you're OK
-            Money, it's a gas Grab that cash with both hands and make a stash
-            New car, caviar, four-star daydream Think I'll buy me a football
-            team Money, get back I'm alright, Jack, keep your hands off of my
-            stack Money, it's a hit Ah, don't give me that do-goody-good
-            bullshit I'm in the high-fidelity first-class traveling set And I
-            think I need a Learjet Money, it's a crime Share it fairly but don't
-            take a slice of my pie Money, so they say Is the root of all evil
-            today But if you ask for a rise it's no surprise that they're giving
-            none away
+            Through innovative technological solutions, Stratos Operations
+            delivers cutting-edge IT services tailored to meet your unique
+            needs. With a focus on excellence, integrity, and collaboration, we
+            are determined to drive digital transformation and foster
+            exponential growth for organizations worldwide.
+            <br />
+            <br />
+            We are dedicated to building lasting relationships through integrity
+            and exceptional service, consistently pushing the boundaries of what
+            is possible. Our innovative approach ensures that we not only meet
+            but exceed our clients' expectations, providing solutions that are
+            as reliable as they are cutting-edge.
           </p>
         )}
         {activeSection === 2 && (
           <p className="main-recap__paragraph">
-            Ticking away the moments that make up a dull day You fritter and
-            waste the hours in an off-hand way Kicking around on a piece of
-            ground in your home town Waiting for someone or something to show
-            you the way Tired of lying in the sunshine, staying home to watch
-            the rain And you are young and life is long, and there is time to
-            kill today And then one day you find ten years have got behind you
-            No one told you when to run, you missed the starting gun
+            <span className="main-recap__paragraph-bold-text">Innovation:</span>{" "}
+            We embrace a proactive approach to technology, constantly exploring
+            emerging trends and solutions to stay at the forefront of the IT
+            industry.
+            <br />
+            <br />
+            <span className="main-recap__paragraph-bold-text">
+              Customer-Centricity:
+            </span>{" "}
+            Open and transparent communication allows us to exceed your
+            expectations with IT solutions that add tangible value to your
+            businesses.
+            <br />
+            <br />
+            <span className="main-recap__paragraph-bold-text">
+              Reliability and Security:
+            </span>{" "}
+            Whilst adhering to industry best practices and standards, we ensure
+            the highest level of reliability and security for your systems and
+            data.
           </p>
         )}
         {activeSection === 3 && (
           <p className="main-recap__paragraph">
-            Breathe, breathe in the air Don't be afraid to care Leave, but don't
-            leave me Look around Choose your own ground Long you live and high
-            you fly And smiles you'll give and tears you'll cry And all you
-            touch and all you see Is all your life will ever be Run, rabbit run
-            Dig that hole, forget the sun And when at last the work is done
-            Don't sit down It's time to dig another one For long you live and
-            high you fly But only if you ride the tide And balanced on the
-            biggest wave You race towards an early grave
+            We offer quick, efficient, cost-effective solutions within our
+            flexible on-demand model; eliminating overhead costs associated with
+            hiring and maintaining a full time IT staff.
+            <br />
+            <br />
+            We are a veteran owned company experienced with modern day security
+            and the latest cloud practices; ensuring your company is ahead of
+            the curve.
+            <br />
+            <br />
           </p>
         )}
       </div>

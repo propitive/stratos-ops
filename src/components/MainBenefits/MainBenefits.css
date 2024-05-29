@@ -29,3 +29,21 @@
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
+
+@media screen and (max-width: 950px) {
+  .main-benefit {
+    width: 150px;
+    padding: 10px;
+  }
+  .main-benefit__icon {
+    height: 30px;
+  }
+  .main-benefit__subtitle {
+    font-size: 16.5px;
+    margin: 5px 0 5px;
+    line-height: 20px;
+  }
+  .main-benefit__paragraph {
+    font-size: 14px;
+  }
+}
