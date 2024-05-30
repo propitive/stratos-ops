@@ -106,7 +106,7 @@ function Footer() {
           </Link>
         </div>
         <p className="footer__author">
-          Created by{" "}
+          Developed by{" "}
           <a
             href="https://www.linkedin.com/in/jose-m-maldonado/"
             target="_blank"

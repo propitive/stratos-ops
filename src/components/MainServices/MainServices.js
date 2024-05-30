@@ -27,7 +27,7 @@ function MainServices() {
       <div className="main-services__dropdowns">
         <Dropdown
           bulletSymbol={checkSquare}
-          dropdownClassName=""
+          dropdownClassName="main-services__dropdown"
           dropdownContent={dropdownContentMenu}
         />
       </div>
