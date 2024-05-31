@@ -251,8 +251,8 @@
 }
 
 @media screen and (max-width: 1100px) {
-  .header {
-    padding: 0 20px 0;
+  .main-recap {
+    padding: 60px 20px 80px;
   }
 }
 
@@ -270,7 +270,7 @@
 @media screen and (max-width: 935px) {
   .main-recap {
     height: 440px;
-    padding: 50px 40px 70px;
+    padding: 50px 20px 70px;
   }
   .main-recap__text {
     font-size: 22px;
@@ -282,7 +282,30 @@
   }
 }
 
+@media screen and (max-width: 870px) {
+  .main-recap {
+    height: 410px;
+  }
+  .main-recap__header-mission {
+    font-size: 22px;
+  }
+  .main-recap__header-principles {
+    font-size: 22px;
+  }
+  .main-recap__header-choose {
+    font-size: 22px;
+  }
+  .main-recap__paragraph {
+    font-size: 18px;
+    margin: 15px 0 0;
+  }
+}
+
 @media screen and (max-width: 850px) {
+  .main-recap {
+    height: 520px;
+    padding: 50px 20px 60px;
+  }
   .main-recap__text-section {
     padding: 20px 0 20px;
   }
@@ -300,9 +323,45 @@
     height: 70px;
     font-size: 23px;
   }
+  .main-recap__paragraph-section {
+  }
+  .main-recap__header-mission {
+    font-size: 23px;
+  }
+  .main-recap__header-principles {
+    font-size: 23px;
+  }
+  .main-recap__header-choose {
+    font-size: 23px;
+  }
+  .main-recap__paragraph {
+    font-size: 18px;
+    margin: 10px 0 0;
+  }
+}
+
+@media screen and (max-width: 790px) {
+  .main-recap {
+    height: 490px;
+  }
+  .main-recap__header-mission {
+    font-size: 20px;
+  }
+  .main-recap__header-principles {
+    font-size: 20px;
+  }
+  .main-recap__header-choose {
+    font-size: 20px;
+  }
+  .main-recap__paragraph {
+    font-size: 16px;
+  }
 }
 
 @media screen and (max-width: 775px) {
+  .main-recap {
+    height: 440px;
+  }
   .main-recap__text-section {
   }
   .main-recap__text-container {
@@ -337,6 +396,10 @@
 }
 
 @media screen and (max-width: 660px) {
+  .main-recap {
+    height: 420px;
+    padding: 40px 20px 50px;
+  }
   .main-recap__text-section {
   }
   .main-recap__text-container {
@@ -352,10 +415,30 @@
   }
 }
 
-@media screen and (max-width: 600px) {
-  .main-recap__text-section {
+@media screen and (max-width: 640px) {
+  .main-recap {
+    height: 400px;
   }
-  .main-recap__text-container {
+  .main-recap__header-mission {
+    font-size: 17px;
+    margin: 0 5px 0 0;
+  }
+  .main-recap__header-principles {
+    font-size: 17px;
+    margin: 0 5px 0;
+  }
+  .main-recap__header-choose {
+    font-size: 17px;
+    margin: 0 0 0 5px;
+  }
+  .main-recap__paragraph {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-recap {
+    height: 380px;
   }
   .main-recap__text {
     font-size: 20px;
@@ -368,10 +451,40 @@
   }
 }
 
-@media screen and (max-width: 545px) {
-  .main-recap__text-section {
+@media screen and (max-width: 562px) {
+  .main-recap {
+    height: 350px;
   }
-  .main-recap__text-container {
+  .main-recap__header-mission {
+    font-size: 15px;
+  }
+  .main-recap__header-principles {
+    font-size: 15px;
+  }
+  .main-recap__header-choose {
+    font-size: 15px;
+  }
+  .main-recap__paragraph {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 545px) {
+  .main-recap {
+    height: 320px;
+    padding: 30px 20px 40px;
+  }
+  .main-recap__header-mission {
+    font-size: 13px;
+  }
+  .main-recap__header-principles {
+    font-size: 13px;
+  }
+  .main-recap__header-choose {
+    font-size: 13px;
+  }
+  .main-recap__paragraph {
+    font-size: 12px;
   }
   .main-recap__text {
     font-size: 18px;
@@ -385,7 +498,21 @@
 }
 
 @media screen and (max-width: 490px) {
-  .main-recap__text-section {
+  .main-recap {
+    height: 370px;
+  }
+  .main-recap__header-mission {
+    font-size: 13px;
+  }
+  .main-recap__header-principles {
+    font-size: 13px;
+  }
+  .main-recap__header-choose {
+    font-size: 13px;
+  }
+  .main-recap__paragraph {
+    font-size: 12px;
+    margin: 10px 0 0;
   }
   .main-recap__text-container {
     gap: 15px;
@@ -408,12 +535,24 @@
     gap: 10px;
   }
   .main-recap__text {
-    font-size: 14px;
-    max-width: 260px;
+    font-size: 16px;
+    max-width: 300px;
   }
   .main-recap__button {
-    width: 120px;
-    height: 30px;
-    font-size: 9px;
+    width: 140px;
+    height: 40px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .main-recap__header-mission {
+    font-size: 12px;
+  }
+  .main-recap__header-principles {
+    font-size: 12px;
+  }
+  .main-recap__header-choose {
+    font-size: 12px;
   }
 }
