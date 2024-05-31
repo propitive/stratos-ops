@@ -14,22 +14,22 @@ export const mainBenefitsContent = [
   {
     id: 2,
     icon: shield,
-    subtitle: "Comprehensive Protection",
+    subtitle: "Security and Pen Testing",
     paragraph:
-      "A company offering these services ensures holistic security measures, safeguarding against cyber threats, data breaches, and system vulnerabilities through rigorous security consulting and hardening.",
+      "Ensuring that organizations are following best practices and have a multi-layer approach when it comes to IT security. Additionally, establishing strict access controls, sensitive data handling, and encryption protocols further fortifying the company's defenses against cyber threats.",
   },
   {
     id: 3,
     icon: transform,
-    subtitle: "Efficient Digital Transformation",
+    subtitle: "Cloud Adoptions and Review",
     paragraph:
-      "Facilitates smooth transition to cloud infrastructure, optimizing resources, enhancing scalability, and enabling remote access while ensuring data integrity and compliance.",
+      "Offering organizations of all sizes the capability to utilize the cloud providing hands-on guidance and support in navigating the platform's services, optimizing resource usage, and implementing best practices to leverage its scalability, reliability, and security features effectively.",
   },
   {
     id: 4,
     icon: trendingUp,
     subtitle: "Resilience and Business Continuity",
     paragraph:
-      "Provides robust backup and recovery solutions, minimizing downtime, ensuring data availability, and enabling swift recovery from disasters or system failures, thus safeguarding business continuity and reputation.",
+      "We implement robust backup and disaster recovery solutions to ensure your business can withstand disruptions and quickly recover.",
   },
 ];

@@ -453,7 +453,7 @@
 
 @media screen and (max-width: 562px) {
   .main-recap {
-    height: 350px;
+    height: 390px;
   }
   .main-recap__header-mission {
     font-size: 15px;
@@ -465,26 +465,24 @@
     font-size: 15px;
   }
   .main-recap__paragraph {
-    font-size: 12px;
   }
 }
 
 @media screen and (max-width: 545px) {
   .main-recap {
-    height: 320px;
+    height: 380px;
     padding: 30px 20px 40px;
   }
   .main-recap__header-mission {
-    font-size: 13px;
+    font-size: 14px;
   }
   .main-recap__header-principles {
-    font-size: 13px;
+    font-size: 14px;
   }
   .main-recap__header-choose {
-    font-size: 13px;
+    font-size: 14px;
   }
   .main-recap__paragraph {
-    font-size: 12px;
   }
   .main-recap__text {
     font-size: 18px;
@@ -497,21 +495,23 @@
   }
 }
 
+@media screen and (max-width: 545px) {
+  .main-recap {
+    height: 395px;
+  }
+}
+
 @media screen and (max-width: 490px) {
   .main-recap {
-    height: 370px;
+    height: 410px;
   }
   .main-recap__header-mission {
-    font-size: 13px;
   }
   .main-recap__header-principles {
-    font-size: 13px;
   }
   .main-recap__header-choose {
-    font-size: 13px;
   }
   .main-recap__paragraph {
-    font-size: 12px;
     margin: 10px 0 0;
   }
   .main-recap__text-container {
@@ -528,7 +528,10 @@
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 425px) {
+  .main-recap {
+    height: 430px;
+  }
   .main-recap__text-section {
   }
   .main-recap__text-container {
@@ -547,12 +550,9 @@
 
 @media screen and (max-width: 400px) {
   .main-recap__header-mission {
-    font-size: 12px;
   }
   .main-recap__header-principles {
-    font-size: 12px;
   }
   .main-recap__header-choose {
-    font-size: 12px;
   }
 }

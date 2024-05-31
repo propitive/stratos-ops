@@ -96,8 +96,12 @@
     max-width: 500px;
     margin: 0 20px 0 0;
   }
+  .main-services__dropdown {
+    max-width: none;
+  }
   .main-services__dropdowns {
     padding: 0;
+    width: 100%;
   }
 }
 
@@ -313,7 +317,6 @@
   .main-services__header {
   }
   .main-services__paragraph {
-    font-size: 13px;
   }
 }
 
@@ -325,10 +328,23 @@
   .main-services__text-container {
   }
   .main-services__header {
-    font-size: 16px;
     max-width: 325px;
   }
   .main-services__paragraph {
-    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 488px) {
+  .main-services {
+  }
+  .main-services__text {
+  }
+  .main-services__text-container {
+    gap: 5px;
+  }
+  .main-services__header {
+    font-size: 16px;
+  }
+  .main-services__paragraph {
   }
 }

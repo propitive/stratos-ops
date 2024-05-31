@@ -11,7 +11,7 @@
 .main-benefits__title {
   font-family: "Radio Canada Big", sans-serif, Arial;
   margin: 0;
-  padding: 0 0 80px;
+  padding: 0 0 60px;
   font-size: 50px;
   text-align: center;
   color: white;
@@ -30,20 +30,157 @@
   font-weight: 400;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1515px) {
+  .main-benefits__benefits-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
   .main-benefit {
-    width: 150px;
-    padding: 10px;
+    width: 100%;
+    max-width: 590px;
+  }
+}
+
+@media screen and (max-width: 1430px) {
+  .main-benefit {
+    max-width: 510px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .main-benefit {
+    max-width: 460px;
+  }
+}
+
+@media screen and (max-width: 1215px) {
+  .main-benefit {
+    max-width: 420px;
+  }
+}
+
+@media screen and (max-width: 1115px) {
+  .main-benefits {
+    padding: 70px 20px 90px;
+  }
+  .main-benefit {
+    max-width: 370px;
+  }
+  .main-benefits__title {
+    padding: 0 0 40px;
+  }
+  .main-benefit__subtitle {
+    font-size: 20px;
+    margin: 0 0 5px;
+  }
+  .main-benefit__paragraph {
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .main-benefits {
+    padding: 90px 20px 110px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .main-benefits {
+    padding: 70px 20px 90px;
+  }
+  .main-benefit {
+    max-width: 320px;
   }
   .main-benefit__icon {
     height: 30px;
   }
   .main-benefit__subtitle {
-    font-size: 16.5px;
-    margin: 5px 0 5px;
-    line-height: 20px;
+    font-size: 18px;
   }
   .main-benefit__paragraph {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .main-benefit {
+    max-width: fit-content;
+    padding: 15px 10px 15px;
+  }
+  .main-benefit__icon {
+  }
+  .main-benefit__subtitle {
+    font-size: 15px;
+  }
+  .main-benefit__paragraph {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .main-benefits__title {
+    font-size: 45px;
+    padding: 0 0 30px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .main-benefits__title {
+    font-size: 40px;
+    padding: 0 0 20px;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .main-benefit {
+  }
+  .main-benefit__icon {
+  }
+  .main-benefit__subtitle {
+  }
+  .main-benefit__paragraph {
+  }
+}
+
+@media screen and (max-width: 675px) {
+  .main-benefits__title {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  .main-benefit {
+  }
+  .main-benefit__icon {
+  }
+  .main-benefit__subtitle {
     font-size: 14px;
+  }
+  .main-benefit__paragraph {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-benefits__title {
+    font-size: 30px;
+    padding: 0 0 15px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  .main-benefits {
+    padding: 50px 20px 70px;
+  }
+  .main-benefits__title {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .main-benefits__title {
+    font-size: 22px;
+    padding: 0 0 10px;
   }
 }
