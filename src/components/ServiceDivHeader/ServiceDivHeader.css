@@ -66,11 +66,11 @@
   }
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 425px) {
   .service-div-header {
     height: 130px;
   }
   .service-div-header__title {
-    font-size: 30px;
+    font-size: 32px;
   }
 }
