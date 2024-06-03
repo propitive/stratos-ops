@@ -11,7 +11,7 @@ function ServiceDivBenefits({ benefits }) {
           return (
             <div className="service-div-benefits__benefit" key={i}>
               <img
-                className="service-div-benefits_image"
+                className="service-div-benefits__image"
                 src={benefit.image}
                 alt="Image of benefit"
               />

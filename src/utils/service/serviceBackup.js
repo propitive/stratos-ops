@@ -23,7 +23,7 @@ export const backupBenefits = [
   },
   {
     image: checkCircle,
-    title: "Effective compliance management for an updated security system",
+    title: "Effective compliance management ",
   },
   {
     image: piggyBank,

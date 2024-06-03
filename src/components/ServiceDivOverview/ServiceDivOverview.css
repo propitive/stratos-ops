@@ -355,21 +355,14 @@
   .service-div-overview__points {
     gap: 25px;
   }
-  /* .service-div-overview__point {
-    max-width: 220px;
-    height: 56px;
-    font-size: 12px;
+  .service-div-overview__point {
   }
   .service-div-overview__point:nth-of-type(1) {
-    max-width: 220px;
-    height: 56px;
-    font-size: 12px;
+    margin-left: 40px;
   }
   .service-div-overview__point:nth-of-type(3) {
-    max-width: 220px;
-    height: 56px;
-    font-size: 12px;
-  } */
+    margin-left: 40px;
+  }
   /* .service-div-overview__point-bold {
     font-size: 18px;
   } */
