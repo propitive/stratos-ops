@@ -2,21 +2,41 @@ export const dropdownContentMenu = [
   {
     id: 1,
     title: "Security Consulting and Hardening",
-    content: ["Point 1.", "Point 2.", "Point 3.", "Point 4."],
+    content: [
+      "Thorough review your current IT environment for any security vulnerabilities.",
+      "Present all security recommendations and any future potential ones.",
+      "Provide services to implement security solutions.",
+      "White-Hat testing to identify and address your environment potential weaknesses.",
+    ],
   },
   {
     id: 2,
     title: "Cloud Migration and Implementations",
-    content: ["Point 1.", "Point 2.", "Point 3.", "Point 4."],
+    content: [
+      "Recommend best cloud migration strategy.",
+      "Provide solutions to be used to handle migration with little business down time.",
+      "Design and build any requested cloud resources.",
+      "Recommend cost savings solutions to your current processes and environment.",
+    ],
   },
   {
     id: 3,
     title: "CI/CD Processes",
-    content: ["Point 1.", "Point 2.", "Point 3.", "Point 4."],
+    content: [
+      "Setup and CI/CD process for your application into the cloud. ",
+      "Setup custom actions to test, deploy, and destroy cloud resources.",
+      "maintain you pipeline and updates for you.",
+      "Provide templates to use as a baseline for your team.",
+    ],
   },
   {
     id: 4,
     title: "Backup and Recovery",
-    content: ["Point 1.", "Point 2.", "Point 3.", "Point 4."],
+    content: [
+      "Provide backup solutions to meet your organization's RTO and RPo periods.",
+      "Test your current backup plans and offer improvements where needed.",
+      "Offer cloud backup options for your on-prem environment to improve redundancy.",
+      "Setup cold, warm, and hot environments to be used as backups. ",
+    ],
   },
 ];

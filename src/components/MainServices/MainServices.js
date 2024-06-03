@@ -17,10 +17,15 @@ function MainServices() {
             <span className="main-services__bold-text">your advantage</span>.
           </h2>
           <p className="main-services__paragraph">
-            Breathe, breathe in the air Don't be afraid to care Leave, but don't
-            leave me Look around Choose your own ground Long you live and high
-            you fly And smiles you'll give and tears you'll cry And all you
-            touch and all you see Is all your life will ever be
+            Imagine never having to worry about your company's data being
+            compromised or losing critical information in a disaster; with
+            Stratos Operations, you can protect your digital assets from
+            threats. Seamlessly transition to the cloud for greater scalability
+            and flexibility, optimize your development processes for faster,
+            more reliable software releases, and ensure your data is always
+            backed up and recoverable. Safeguard your business, streamline
+            operations, reduce downtime, and boost overall efficiency, giving
+            you peace of mind and a competitive edge in the market.
           </p>
         </div>
       </div>
