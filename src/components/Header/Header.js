@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
@@ -15,18 +15,26 @@ import SidebarDropdownItem from "../SidebarDropdownItem/SidebarDropdownItem";
 
 function Header({ handleOpenGetAQuote, handleVisibleReset }) {
   const [isDropdownMenu, setIsDropdownMenu] = useState(false);
+  const [isSidebarDropdownOpen, setIsSidebarDropdownOpen] = useState(false);
   const [sidebar, setSidebar] = useState(false);
+
   const liMenuClassName = isDropdownMenu
     ? "header__list-item-menu-hovered"
     : "header__list-item-menu";
-  const showSidebar = () => setSidebar(!sidebar);
 
   const handleCloseOnOverlayClick = (event) => {
     console.log(event.target);
     console.log(event.currentTarget);
     if (event.target === event.currentTarget) {
-      showSidebar();
+      handleShowSidebar();
     }
+  };
+  const handleShowSidebar = () => {
+    setSidebar(!sidebar);
+    setIsSidebarDropdownOpen(false);
+  };
+  const handleIsSidebarDropdownOpen = (operator) => {
+    setIsSidebarDropdownOpen(operator);
   };
 
   return (
@@ -78,7 +86,7 @@ function Header({ handleOpenGetAQuote, handleVisibleReset }) {
               style={{
                 color: "white",
               }}
-              onClick={showSidebar}
+              onClick={handleShowSidebar}
             />
           </Link>
         </div>
@@ -91,7 +99,7 @@ function Header({ handleOpenGetAQuote, handleVisibleReset }) {
           ></div>
           <ul className="nav-menu-items">
             <li className="navbar-toggle">
-              <Link to="#" className="menu-bars" onClick={showSidebar}>
+              <Link to="#" className="menu-bars" onClick={handleShowSidebar}>
                 <AiIcons.AiOutlineClose
                   style={{
                     color: "white",
@@ -100,13 +108,18 @@ function Header({ handleOpenGetAQuote, handleVisibleReset }) {
               </Link>
             </li>
             <li className="nav-text">
-              <Link to="/">
+              <Link to="/" onClick={handleShowSidebar}>
                 <span>Home</span>
               </Link>
             </li>
-            <SidebarDropdownItem content={dropdownSidebarContentMenu} />
+            <SidebarDropdownItem
+              content={dropdownSidebarContentMenu}
+              handleIsSidebarDropdownOpen={handleIsSidebarDropdownOpen}
+              isSidebarDropdownOpen={isSidebarDropdownOpen}
+              showSidebar={handleShowSidebar}
+            />
             <li className="nav-text">
-              <Link to="/about-us">
+              <Link to="/about" onClick={handleShowSidebar}>
                 <span>About Us</span>
               </Link>
             </li>
@@ -125,35 +138,6 @@ function Header({ handleOpenGetAQuote, handleVisibleReset }) {
               />
             </Link>
           </ul>
-          {/* <ul className="nav-menu-items">
-            <li className="navbar-toggle">
-              <Link to="#" className="menu-bars" onClick={showSidebar}>
-                <AiIcons.AiOutlineClose
-                  style={{
-                    color: "white",
-                  }}
-                />
-              </Link>
-            </li>
-            {SidebarData.map((item, index) => {
-              return (
-                <li key={index} className={item.cName}>
-                  <Link to={item.path}>
-                    <span>{item.title}</span>
-                  </Link>
-                </li>
-              );
-            })}
-            <Link
-              to="/contact-form"
-              style={{ textDecoration: "none", alignSelf: "center" }}
-            >
-              <BookOnlineButton
-                className="nav-menu__button"
-                handleOpenGetAQuote={handleOpenGetAQuote}
-              />
-            </Link>
-          </ul> */}
         </nav>
       </div>
     </header>
