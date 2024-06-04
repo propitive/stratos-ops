@@ -8,7 +8,7 @@ import {
   backupTechToolsSubtitle,
 } from "../../utils/service/serviceBackup";
 import backupCtaImage from "../../images/service/cta/backupCta.png";
-import backupCtaTestImage from "../../images/service/cta/testPicture.png";
+import backupCtaTestImage from "../../images/service/cta/testPicture.jpg";
 
 import ServiceDivBenefits from "../ServiceDivBenefits/ServiceDivBenefits";
 import ServiceDivCta from "../ServiceDivCta/ServiceDivCta";
@@ -31,16 +31,16 @@ function ServiceBackup({ handleOpenGetAQuote }) {
         title={backupOverviewTitle}
       />
       <ServiceDivBenefits benefits={backupBenefits} />
+      <ServiceDivHero
+        handleOpenGetAQuote={handleOpenGetAQuote}
+        image={backupCtaImage}
+        paragraph={backupCtaParagraph}
+      />
       {/* <ServiceDivCta
         handleOpenGetAQuote={handleOpenGetAQuote}
         image={backupCtaTestImage}
         paragraph={backupCtaParagraph}
       /> */}
-      <ServiceDivHero
-        handleOpenGetAQuote={handleOpenGetAQuote}
-        image={backupCtaTestImage}
-        paragraph={backupCtaParagraph}
-      />
     </div>
   );
 }

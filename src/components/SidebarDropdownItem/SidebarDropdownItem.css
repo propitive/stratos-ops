@@ -1,0 +1,57 @@
+.sidebar-dropdown-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 66px;
+  padding: 0 0 0 32px;
+  border: none;
+  color: #f5f5f5;
+  border-radius: 4px;
+}
+
+.sidebar-dropdown-item__title {
+  font-family: "Roboto Condensed", sans-serif, Arial;
+  font-size: 22px;
+  margin: 0;
+}
+
+.sidebar-dropdown-item__button {
+  background: url(../../images/icons/chevron-up.svg) center no-repeat;
+  height: 40px;
+  width: 40px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  animation: firstRotation 0.2s linear forwards;
+}
+
+.sidebar-dropdown-item__button-active {
+  animation: secondRotation 0.2s linear forwards;
+}
+
+@keyframes firstRotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-180deg);
+  }
+}
+
+@keyframes secondRotation {
+  0% {
+    transform: rotate(-180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.sidebar-dropdown-item__bulletpoints {
+  width: 100%;
+  height: fit-content;
+  padding: 0;
+  overflow: hidden;
+}

@@ -40,3 +40,26 @@ export const dropdownContentMenu = [
     ],
   },
 ];
+
+export const dropdownSidebarContentMenu = {
+  id: 1,
+  title: "Services",
+  content: [
+    {
+      link: "/services/securityConsulting",
+      title: "Security Consulting",
+    },
+    {
+      link: "/services/cloudMigration",
+      title: "Cloud Migration",
+    },
+    {
+      link: "/services/cicd",
+      title: "CI/CD",
+    },
+    {
+      link: "/services/backupAndRecovery",
+      title: "Backup and Recovery",
+    },
+  ],
+};

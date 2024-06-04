@@ -8,6 +8,10 @@ import { SidebarData } from "../../utils/constants";
 
 import BookOnlineButton from "../BookOnlineButton/BookOnlineButton";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
+import DropdownBulletpoint from "../DropdownBulletpoint/DropdownBulletpoint";
+import DropdownItem from "../DropdownItem/DropdownItem";
+import { dropdownSidebarContentMenu } from "../../utils/dropdownContent";
+import SidebarDropdownItem from "../SidebarDropdownItem/SidebarDropdownItem";
 
 function Header({ handleOpenGetAQuote, handleVisibleReset }) {
   const [isDropdownMenu, setIsDropdownMenu] = useState(false);
@@ -95,6 +99,42 @@ function Header({ handleOpenGetAQuote, handleVisibleReset }) {
                 />
               </Link>
             </li>
+            <li className="nav-text">
+              <Link to="/">
+                <span>Home</span>
+              </Link>
+            </li>
+            <SidebarDropdownItem content={dropdownSidebarContentMenu} />
+            <li className="nav-text">
+              <Link to="/about-us">
+                <span>About Us</span>
+              </Link>
+            </li>
+            {/* <li className={item.cName}>
+                  <Link to={item.path}>
+                    <span>{item.title}</span>
+                  </Link>
+                </li> */}
+            <Link
+              to="/contact-form"
+              style={{ textDecoration: "none", alignSelf: "center" }}
+            >
+              <BookOnlineButton
+                className="nav-menu__button"
+                handleOpenGetAQuote={handleOpenGetAQuote}
+              />
+            </Link>
+          </ul>
+          {/* <ul className="nav-menu-items">
+            <li className="navbar-toggle">
+              <Link to="#" className="menu-bars" onClick={showSidebar}>
+                <AiIcons.AiOutlineClose
+                  style={{
+                    color: "white",
+                  }}
+                />
+              </Link>
+            </li>
             {SidebarData.map((item, index) => {
               return (
                 <li key={index} className={item.cName}>
@@ -113,7 +153,7 @@ function Header({ handleOpenGetAQuote, handleVisibleReset }) {
                 handleOpenGetAQuote={handleOpenGetAQuote}
               />
             </Link>
-          </ul>
+          </ul> */}
         </nav>
       </div>
     </header>

@@ -29,6 +29,8 @@
 @import url("/src/components/ServiceDivOverview/ServiceDivOverview.css");
 @import url("/src/components/ServiceDivTechTools/ServiceDivTechTools.css");
 @import url("/src/components/ServiceSecurity/ServiceSecurity.css");
+@import url("/src/components/SidebarDropdownBulletpoint/SidebarDropdownBulletpoint.css");
+@import url("/src/components/SidebarDropdownItem/SidebarDropdownItem.css");
 
 body {
   margin: 0;

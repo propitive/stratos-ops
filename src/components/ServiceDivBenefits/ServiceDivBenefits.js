@@ -1,6 +1,4 @@
 function ServiceDivBenefits({ benefits }) {
-  console.log(benefits);
-
   return (
     <section className="service-div-benefits">
       <h3 className="service-div-benefits__title">

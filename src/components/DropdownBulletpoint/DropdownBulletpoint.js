@@ -12,6 +12,7 @@ const DropdownBulletpoint = ({ bulletpoint, bulletSymbol, isActive }) => {
         src={bulletSymbol || checkSquare}
         alt="Bulletpoint's Icon"
       />
+
       <p className="dropdown-bulletpoint__text">{bulletpoint}</p>
     </li>
   );
