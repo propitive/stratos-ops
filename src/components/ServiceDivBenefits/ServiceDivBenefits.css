@@ -200,7 +200,7 @@
   }
 }
 
-@media screen and (max-width: 429px) {
+@media screen and (max-width: 375px) {
   .service-div-benefits {
     /* padding: 20px 20px 0; */
   }
@@ -209,11 +209,14 @@
   .service-div-benefits__title {
   }
   .service-div-benefits__benefit {
+    max-width: 115px;
   }
   .service-div-benefits__container {
+    max-width: 285px;
   }
   .service-div-benefits__image {
   }
   .service-div-benefits__text {
+    font-size: 12px;
   }
 }

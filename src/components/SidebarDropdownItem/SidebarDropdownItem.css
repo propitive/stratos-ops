@@ -41,8 +41,8 @@
 
 .sidebar-dropdown-item__button {
   background: url(../../images/icons/chevron-up-white.svg) center no-repeat;
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   border: none;
   background-color: transparent;
   cursor: pointer;
