@@ -7,12 +7,13 @@
 }
 
 .dropdown-bulletpoint__expanded {
-  margin-top: 0;
+  margin: 0;
+  height: 40px;
 }
 
 .dropdown-bulletpoint__bulletsymbol {
   height: 24px;
-  margin-top: 16px;
+  margin: 0;
 }
 
 .dropdown-bulletpoint__text {
@@ -20,4 +21,5 @@
   font-size: 19px;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  margin: 0;
 }

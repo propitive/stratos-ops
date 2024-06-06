@@ -86,7 +86,7 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
             />
             <span className="form__input-span">Name</span>
           </div>
-          <div className="form__input-box orm__input-email">
+          <div className="form__input-box form__input-email">
             <input
               className="form__input"
               name="user-email"
@@ -124,7 +124,7 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
           name="user-service"
           className="react-select__container"
           classNamePrefix="react-select"
-          placeholder="Service"
+          placeholder="SERVICE"
           styles={{
             control: (baseStyles) => ({
               ...baseStyles,

@@ -31,7 +31,8 @@
   /* line-height: 20px; */
   background: #f5f0f0;
   justify-content: space-between;
-  padding: 34px 36px 34px;
+  /* padding: 34px 36px 34px; */
+  padding: 24px 26px 24px;
   position: absolute;
 }
 
@@ -164,7 +165,7 @@
 }
 
 .react-select__value-container {
-  font-size: large;
+  font-size: 15px;
 }
 
 .react-select-control {
@@ -231,38 +232,217 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 670px) {
-  .modal__form {
-    width: 350px;
+@media screen and (max-width: 690px) {
+  .modal__title {
+    font-size: 38px;
+    height: 63px;
   }
-}
-
-@media screen and (max-width: 600px) {
-  .modal__form {
-    width: 200px;
+  .form__input {
+    font-size: 14px;
   }
-}
-
-@media screen and (max-width: 500px) {
-  .form__form {
-    max-width: 380px;
+  .form__input-span {
+    font-size: 14px;
   }
-  .form__input-box {
+  .form__input-box .form__input:valid ~ .form__input-span,
+  .form__input-box .form__input:focus ~ .form__input-span {
+    font-size: 14px;
+  }
+  .react-select__value-container {
+    font-size: 14px;
+  }
+  .form__input-name {
+    width: 190px;
+  }
+  .form__input-email {
+    width: 190px;
+  }
+  .form__input-number {
+    width: 190px;
+  }
+  .form__input-company {
+    width: 190px;
+  }
+  .form__input {
+    width: 180px;
+  }
+  .react-select__container {
+    width: 391px;
+    font-size: 14px;
+  }
+  .form__input-message {
+    width: 381px;
+  }
+  .form__input-message-container {
     width: 380px;
   }
+}
+
+@media screen and (max-width: 610px) {
+  .modal__title {
+    font-size: 36px;
+    height: 61px;
+  }
   .form__input {
-    width: 304px;
+    font-size: 13px;
+  }
+  .form__input-span {
+    font-size: 13px;
+  }
+  .form__input-box .form__input:valid ~ .form__input-span,
+  .form__input-box .form__input:focus ~ .form__input-span {
+    font-size: 13px;
+  }
+  .react-select__value-container {
+    font-size: 13px;
+  }
+  .form__input-name {
+    width: 170px;
+  }
+  .form__input-email {
+    width: 170px;
+  }
+  .form__input-number {
+    width: 170px;
+  }
+  .form__input-company {
+    width: 170px;
+  }
+  .form__input {
+    width: 160px;
+  }
+  .react-select__container {
+    width: 354px;
+    font-size: 13px;
+  }
+  .form__input-message {
+    width: 344px;
+  }
+  .form__input-message-container {
+    width: 342px;
   }
 }
 
-@media screen and (max-width: 400px) {
-  .form__form {
-    max-width: 350px;
-  }
-  .form__input-box {
-    width: 348px;
+@media screen and (max-width: 560px) {
+  .modal__title {
+    font-size: 34px;
+    height: 59px;
   }
   .form__input {
-    width: 274px;
+    font-size: 12px;
+  }
+  .form__input-span {
+    font-size: 12px;
+  }
+  .form__input-box .form__input:valid ~ .form__input-span,
+  .form__input-box .form__input:focus ~ .form__input-span {
+    font-size: 12px;
+  }
+  .react-select__value-container {
+    font-size: 12px;
+  }
+  .form__input-name {
+    width: 140px;
+  }
+  .form__input-email {
+    width: 140px;
+  }
+  .form__input-number {
+    width: 140px;
+  }
+  .form__input-company {
+    width: 140px;
+  }
+  .form__input {
+    width: 130px;
+  }
+  .react-select__container {
+    width: 294px;
+    font-size: 12px;
+  }
+  .form__input-message {
+    width: 284px;
+  }
+  .form__input-message-container {
+    width: 282px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .modal__title {
+    font-size: 32px;
+    height: 57px;
+  }
+  .form__input {
+    font-size: 11px;
+  }
+  .form__input-span {
+    font-size: 11px;
+  }
+  .form__input-box .form__input:valid ~ .form__input-span,
+  .form__input-box .form__input:focus ~ .form__input-span {
+    font-size: 11px;
+  }
+  .react-select__value-container {
+    font-size: 11px;
+  }
+  .form__input-name {
+    width: 125px;
+  }
+  .form__input-email {
+    width: 125px;
+  }
+  .form__input-number {
+    width: 125px;
+  }
+  .form__input-company {
+    width: 125px;
+  }
+  .form__input {
+    width: 115px;
+  }
+  .react-select__container {
+    width: 264px;
+    font-size: 11px;
+  }
+  .form__input-message {
+    width: 254px;
+  }
+  .form__input-message-container {
+    width: 252px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .modal__title {
+    font-size: 32px;
+    height: 57px;
+  }
+  .form__input-name {
+    width: 120px;
+  }
+  .form__input-email {
+    width: 120px;
+  }
+  .form__input-number {
+    width: 120px;
+  }
+  .form__input-company {
+    width: 120px;
+  }
+  .form__input {
+    width: 110px;
+  }
+  .react-select__container {
+    width: 253px;
+  }
+  .form__input-message {
+    width: 243px;
+  }
+  .form__input-message-container {
+    width: 242px;
+  }
+  .modal__button-close {
+    top: -50px;
+    right: -10px;
   }
 }
