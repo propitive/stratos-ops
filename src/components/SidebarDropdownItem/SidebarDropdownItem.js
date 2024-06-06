@@ -19,12 +19,11 @@ function SidebarDropdownItem({
   const handleShowSidebarAndResetDropdown = () => {
     showSidebar();
     handleIsSidebarDropdownOpen(false);
-    console.log("Ran second function!");
   };
 
   return (
     <>
-      <li className={"sidebar-dropdown-item " + liClassName}>
+      <div className={"sidebar-dropdown-item " + liClassName}>
         <div
           className={
             "sidebar-dropdown-item__container " + itemContainerClassname
@@ -37,13 +36,14 @@ function SidebarDropdownItem({
             type="button"
           ></button>
         </div>
-      </li>
+      </div>
       <ul className="sidebar-dropdown-item__bulletpoints">
         {content.content.map((bulletpoint) => {
           return (
             <SidebarDropdownBulletpoint
               bulletpoint={bulletpoint}
               isActive={isSidebarDropdownOpen}
+              key={bulletpoint.title}
               showSidebar={handleShowSidebarAndResetDropdown}
             />
           );

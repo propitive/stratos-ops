@@ -36,7 +36,7 @@ function Footer() {
           </Link>
           <div className="footer__icons">
             <a
-              href="https://www.facebook.com/profile.php?id=100088328243988"
+              href="https://www.linkedin.com/company/stratosoperations"
               target="_blank"
               rel="noreferrer"
               className="footer__linkedin"
@@ -50,7 +50,7 @@ function Footer() {
               ></img>
             </a>
             <a
-              href="mailto:lauramoorman22@gmail.com"
+              href="mailto:jmaldonado@stratosops.com"
               target="_blank"
               rel="noreferrer"
               className="footer__email"

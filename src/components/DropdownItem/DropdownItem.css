@@ -22,11 +22,11 @@
   background-color: transparent;
   cursor: pointer;
   padding: 0;
-  animation: firstRotation 0.2s linear forwards;
+  animation: firstRotation 0.24s linear forwards;
 }
 
 .dropdown-item__button-active {
-  animation: secondRotation 0.2s linear forwards;
+  animation: secondRotation 0.24s linear forwards;
 }
 
 @keyframes firstRotation {

@@ -10,6 +10,7 @@ function MainBenefits() {
           return (
             <MainBenefit
               icon={benefit.icon}
+              key={benefit.subtitle}
               paragraph={benefit.paragraph}
               subtitle={benefit.subtitle}
             />

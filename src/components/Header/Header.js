@@ -3,17 +3,13 @@ import { Link } from "react-router-dom";
 import * as FaIcons from "react-icons/fa";
 import * as AiIcons from "react-icons/ai";
 import LogoNoLetters from "../../images/logoBlackAndWhiteNoLetters.png";
-import LogoBlackNoLetters from "../../images/logoBlackNoLetters.png";
-import { SidebarData } from "../../utils/constants";
 
 import BookOnlineButton from "../BookOnlineButton/BookOnlineButton";
 import DropdownMenu from "../DropdownMenu/DropdownMenu";
-import DropdownBulletpoint from "../DropdownBulletpoint/DropdownBulletpoint";
-import DropdownItem from "../DropdownItem/DropdownItem";
 import { dropdownSidebarContentMenu } from "../../utils/dropdownContent";
 import SidebarDropdownItem from "../SidebarDropdownItem/SidebarDropdownItem";
 
-function Header({ handleOpenGetAQuote, handleVisibleReset }) {
+function Header({ handleOpenGetAQuote }) {
   const [isDropdownMenu, setIsDropdownMenu] = useState(false);
   const [isSidebarDropdownOpen, setIsSidebarDropdownOpen] = useState(false);
   const [sidebar, setSidebar] = useState(false);
@@ -23,8 +19,6 @@ function Header({ handleOpenGetAQuote, handleVisibleReset }) {
     : "header__list-item-menu";
 
   const handleCloseOnOverlayClick = (event) => {
-    console.log(event.target);
-    console.log(event.currentTarget);
     if (event.target === event.currentTarget) {
       handleShowSidebar();
     }
@@ -51,19 +45,14 @@ function Header({ handleOpenGetAQuote, handleVisibleReset }) {
           <Link to="/" style={{ textDecoration: "none", color: "#f5f0f0" }}>
             <li className="header__list-item">Home</li>
           </Link>
-          <Link
-            to="/services"
-            style={{ textDecoration: "none", color: "#f5f0f0" }}
+          <li
+            className={liMenuClassName}
+            onMouseEnter={() => setIsDropdownMenu(true)}
+            onMouseLeave={() => setIsDropdownMenu(false)}
           >
-            <li
-              className={liMenuClassName}
-              onMouseEnter={() => setIsDropdownMenu(true)}
-              onMouseLeave={() => setIsDropdownMenu(false)}
-            >
-              Services
-              {isDropdownMenu && <DropdownMenu />}
-            </li>
-          </Link>
+            Services
+            {isDropdownMenu && <DropdownMenu />}
+          </li>
           <Link
             to="/about"
             style={{ textDecoration: "none", color: "#f5f0f0" }}

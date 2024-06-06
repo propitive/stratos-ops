@@ -3,12 +3,13 @@
   flex-direction: row;
   gap: 25px;
   margin-top: -50%;
-  transition: all 0.3s;
+  height: 40px;
+  transition: all 0.3s ease-in-out;
 }
 
 .dropdown-bulletpoint__expanded {
   margin: 0;
-  height: 40px;
+  /* transition: all .3s ease-out; */
 }
 
 .dropdown-bulletpoint__bulletsymbol {

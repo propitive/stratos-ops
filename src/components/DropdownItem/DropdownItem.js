@@ -29,6 +29,7 @@ const DropdownItem = ({
               bulletpoint={bulletpoint}
               bulletSymbol={bulletSymbol}
               isActive={isActive}
+              key={bulletpoint}
             />
           );
         })}
