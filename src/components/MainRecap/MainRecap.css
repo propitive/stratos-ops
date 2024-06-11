@@ -475,12 +475,15 @@
   }
   .main-recap__header-mission {
     font-size: 14px;
+    text-align: center;
   }
   .main-recap__header-principles {
     font-size: 14px;
+    text-align: center;
   }
   .main-recap__header-choose {
     font-size: 14px;
+    text-align: center;
   }
   .main-recap__paragraph {
   }
@@ -548,7 +551,22 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 390px) {
+  .main-recap {
+    height: 430px;
+  }
+  .main-recap__header-mission {
+  }
+  .main-recap__header-principles {
+  }
+  .main-recap__header-choose {
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .main-recap {
+    height: 480px;
+  }
   .main-recap__header-mission {
   }
   .main-recap__header-principles {

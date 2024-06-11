@@ -22,10 +22,16 @@
   font-family: "Radio Canada Big", sans-serif, Arial;
   margin: 10px 0 10px;
   font-size: 22px;
-  line-height: 16px;
+  line-height: 22px;
 }
 
 .main-benefit__paragraph {
   margin: 0;
   font-size: 18px;
+}
+
+@media screen and (max-width: 900px) {
+  .main-benefit__subtitle {
+    line-height: 16px;
+  }
 }

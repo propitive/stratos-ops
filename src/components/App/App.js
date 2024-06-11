@@ -7,6 +7,7 @@ import Main from "../Main/Main";
 import ModalGetAQuote from "../ModalGetAQuote/ModalGetAQuote";
 import ScrollToTop from "../ScrollToTop/ScrollToTop";
 import ServiceBackup from "../ServiceBackup/ServiceBackup";
+import ServiceSecurity from "../ServiceSecurity/ServiceSecurity";
 import About from "../About/About";
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
         </Route>
         <Route path="/services/backupAndRecovery">
           <ServiceBackup handleOpenGetAQuote={handleOpenGetAQuote} />
+        </Route>
+        <Route path="/services/securityConsulting">
+          <ServiceSecurity handleOpenGetAQuote={handleOpenGetAQuote} />
         </Route>
         <Route path="/">
           <Main handleOpenGetAQuote={handleOpenGetAQuote} />

@@ -112,20 +112,10 @@ function Header({ handleOpenGetAQuote }) {
                 <span>About Us</span>
               </Link>
             </li>
-            {/* <li className={item.cName}>
-                  <Link to={item.path}>
-                    <span>{item.title}</span>
-                  </Link>
-                </li> */}
-            <Link
-              to="/contact-form"
-              style={{ textDecoration: "none", alignSelf: "center" }}
-            >
-              <BookOnlineButton
-                className="nav-menu__button"
-                handleOpenGetAQuote={handleOpenGetAQuote}
-              />
-            </Link>
+            <BookOnlineButton
+              className="nav-menu__button"
+              handleOpenGetAQuote={handleOpenGetAQuote}
+            />
           </ul>
         </nav>
       </div>

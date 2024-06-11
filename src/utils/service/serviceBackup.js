@@ -6,6 +6,7 @@ import lock from "../../images/service/benefits/lock.svg";
 import piggyBank from "../../images/service/benefits/piggyBank.svg";
 
 import argocd from "../../images/service/techTools/argocd.png";
+import aws from "../../images/service/techTools/aws.jpg";
 import bitbucket from "../../images/service/techTools/bitbucket.png";
 import circleci from "../../images/service/techTools/circleci.png";
 import droneci from "../../images/service/techTools/droneci.png";
