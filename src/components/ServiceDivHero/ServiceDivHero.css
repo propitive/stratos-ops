@@ -283,5 +283,6 @@
   }
   .k-cabinets__first-section__image {
     height: 200px;
+    width: calc(100% - 70px);
   }
 }
