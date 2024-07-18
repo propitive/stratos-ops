@@ -45,9 +45,13 @@ export const backupBenefits = [
 ];
 
 export const backupCtaParagraph =
-  "Looking for the right CI/CD security (DevSecOps) services provider for your business? Look no further, as with the help of Square Ops Technologies Pvt. Ltd.’s CI/CD security (DevSecOps) services, you can increase the productivity of your business. Get in touch with us today, and our team will be reaching out very shortly.";
+  "Ensure your critical data is secure and easily recoverable with our comprehensive cloud backup and recovery services. Our advanced technology and dedicated support team provide reliable protection and quick access to your data. Request a quote today to safeguard your operations and achieve peace of mind with our affordable, scalable solutions.";
 
 export const backupTechTools = [
+  {
+    image: aws,
+    title: "AWS",
+  },
   {
     image: bitbucket,
     title: "Bitbucket",
@@ -83,47 +87,43 @@ export const backupTechToolsSubtitle =
 
 export const backupOverviewBulletpoints = [
   <p className="service-div-overview__point-text">
-    Just
-    <span className="service-div-overview__point-bold"> 15% </span>of
-    organizations believe that their DevOps adoption is complely mature and
-    secure
+    Regular backups ensure that critical data is
+    <span className="service-div-overview__point-bold"> SAFELY </span>stored
   </p>,
   <p className="service-div-overview__point-text">
-    Cybercrime is up
-    <span className="service-div-overview__point-bold"> 600% </span>post
-    pandemic
+    Disaster recovery plans allow you to quickly
+    <span className="service-div-overview__point-bold"> RESTORE </span> IT
+    operations after a disruption
   </p>,
   <p className="service-div-overview__point-text">
-    Organizations using AI and security automation detected & contained breaches
-    <span className="service-div-overview__point-bold"> 27% </span>faster
+    Backup recovery solutions helps organizarions
+    <span className="service-div-overview__point-bold"> COMPLY </span>with legal
+    requirements
   </p>,
 ];
 
 export const backupOverviewParagraph = (
   <p className="service-div-overview__paragraph">
-    DevSecOps as a practice and culture has taken the IT world by storm. For
-    eons, IT security, operational, and development teams have functioned
-    independently leading to frequent clashes in objectives that ultimately
-    delayed delivery timelines. A common scenario was software being newly
-    deployed to run critical systems after repeated testing and iterations only
-    to be blocked by a security filter predicting vulnerabilities in the
-    codebase.
+    Backing up your IT infrastructure is crucial for safeguarding against
+    unforeseen disasters such as hardware failures, cyberattacks, or natural
+    disasters. It ensures business continuity by allowing quick recovery of data
+    and systems, minimizing downtime and potential revenue loss. Regular backups
+    also protect against human errors, ensuring that accidental deletions or
+    modifications can be reversed.
     <br />
     <br />
-    This necessitated the rise of modernized application, software building,
-    testing, and deployment environments that integrated security checks,
-    frameworks, and tools at every step of the operational process. The
-    modernized development environments are realized with CI/CD (Continuous
-    Integration/Continuous Delivery) pipelines and security integration of the
-    same drives the core of a firm’s DevSecOps model.
+    Moreover, compliance requirements often mandate data retention policies,
+    making backups essential for legal and regulatory purposes. By investing in
+    a robust backup strategy, businesses can maintain customer trust, uphold
+    operational resilience, and preserve critical data integrity in the face of
+    any adversity.
   </p>
 );
 
 export const backupOverviewTitle = (
   <h3 className="service-div-overview__title">
-    <span className="service-div-overview__title-bold">
-      Shielding the CI/CD pipeline:
-    </span>{" "}
-    The Primary Step to Implement a Successful DevSecOps Environment
+    Ensuring your business operations are
+    <span className="service-div-overview__title-bold"> protected</span> from
+    modern day threats
   </h3>
 );

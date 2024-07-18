@@ -18,18 +18,21 @@ function About() {
       <div className="about">
         <div className="about__header">
           <p className="about__header__subtitle">
-            Disrupting the overpriced cloud industry with{" "}
-            <a className="about__header__subtitle__emphasis">radically fair</a>{" "}
-            prices and{" "}
-            <a className="about__header__subtitle__emphasis">quality</a> work.
+            Disrupting the overpriced DevOps industry with
+            <a className="about__header__subtitle__emphasis">
+              {" "}
+              radically fair
+            </a>{" "}
+            prices and
+            <a className="about__header__subtitle__emphasis"> quality </a> work.
           </p>
         </div>
         <div className="about__showcase">
           <h2 className="about__showcase-header">
             <a className="about__header__subtitle__emphasis">Simplifying</a> The
-            Cloud Experience
+            DevOps Experience
           </h2>
-          <div className="about__showcase-items">
+          {/* <div className="about__showcase-items">
             <div className="about__showcase-item">
               <h3 className="about__showcase-item__title">10+</h3>
               <p className="about__showcase-item__subtitle">
@@ -50,7 +53,7 @@ function About() {
               <h3 className="about__showcase-item__title">31</h3>
               <p className="about__showcase-item__subtitle">Options</p>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className="about__what">
           {aboutInfoCards.map((info) => {
@@ -61,6 +64,20 @@ function About() {
               </div>
             );
           })}
+          {/* <p className="about__what-card__paragraph">
+            Welcome to Stratos Operations, your premier partner in cybersecurity
+            and cloud services. We specialize in protecting businesses from
+            digital threats while optimizing cloud infrastructure for maximum
+            efficiency and security. Our team of certified experts is dedicated
+            to providing comprehensive solutions, including threat detection,
+            incident response, and cloud migration services. We leverage
+            cutting-edge technology and best practices to ensure your data and
+            systems are secure and your cloud operations run seamlessly. At
+            Stratos Operations, we prioritize your security and operational
+            success, building lasting relationships based on trust and
+            reliability. Partner with us to safeguard your digital assets and
+            harness the full potential of the cloud.
+          </p> */}
         </div>
       </div>
     </>

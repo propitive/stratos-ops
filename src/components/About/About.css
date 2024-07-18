@@ -122,7 +122,8 @@
 
 .about__header__subtitle {
   color: #1f1717;
-  font-family: "Radio Canada Big", sans-serif, Arial;
+  /* font-family: "Radio Canada Big", sans-serif, Arial; */
+  font-family: "Tilt Neon", sans-serif, Arial;
   margin: 0;
   text-align: center;
   width: 100%;
@@ -142,12 +143,12 @@
   width: calc(100% - 80px);
   background-color: #212356;
   margin: 0 auto 0;
-  font-family: "Radio Canada Big", sans-serif, Arial;
+  /* font-family: "Radio Canada Big", sans-serif, Arial; */
   border-radius: 20px;
 }
 
 .about__showcase-header {
-  margin: 0 0 40px;
+  margin: 0;
   /* color: black; */
   text-align: center;
   color: #f5f0f0;

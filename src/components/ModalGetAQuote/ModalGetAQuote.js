@@ -7,7 +7,7 @@ import { serviceOptions } from "../../utils/constants";
 
 const animatedComponents = makeAnimated();
 
-function ModalGetAQuote({ handleCloseModal, isOpen }) {
+function ModalGetAQuote({ handleCloseModal, handleOpenSubmit, isOpen }) {
   const name = useRef();
   const email = useRef();
   const number = useRef();
@@ -17,12 +17,12 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
   const form = useRef();
 
   const handleInputClear = () => {
-    name.current.clearValue();
-    email.current.clearValue();
-    number.current.clearValue();
+    // name.current.clearValue();
+    // email.current.clearValue();
+    // number.current.clearValue();
     service.current.clearValue();
-    message.current.clearValue();
-    company.current.clearValue();
+    // message.current.clearValue();
+    // company.current.clearValue();
   };
 
   const handleCloseOnOverlayClick = (event) => {
@@ -45,10 +45,14 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
       .then(
         (result) => {
           console.log(result.text);
+          console.log("successful");
           handleInputClear();
+          handleCloseModal();
+          handleOpenSubmit();
         },
         (error) => {
           console.log(error.text);
+          console.log("unsuccessful");
         }
       );
     e.target.reset();
@@ -71,7 +75,7 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
     >
       <form
         className="modal__form"
-        name="inquiryForm"
+        // name="inquiryForm"
         ref={form}
         onSubmit={sendEmail}
       >
@@ -145,7 +149,8 @@ function ModalGetAQuote({ handleCloseModal, isOpen }) {
         </div>
         <button
           className="modal__button form__input-button"
-          onClick={() => handleCloseModal()}
+          type="submit"
+          // onClick={() => handleCloseModal()}
         >
           <p className="modal__button-text">Submit</p>
         </button>

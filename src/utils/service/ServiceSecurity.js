@@ -45,7 +45,7 @@ export const securityBenefits = [
 ];
 
 export const securityCtaParagraph =
-  "Choosing Stratos Ops offers a comprehensive shield against digital threats. With a team of seasoned experts, we provide tailored solutions to safeguard your digital assets. Our proactive approach ensures preemptive defense measures, thwarting potential breaches before they occur. Entrusting us means embracing peace of mind in an increasingly vulnerable digital landscape.";
+  "Protect your digital assets with our comprehensive cloud security services, designed to safeguard against threats and ensure compliance. Our expert team provides advanced monitoring, threat detection, and rapid response to secure your infrastructure. Request a quote today to enhance your cybersecurity and maintain the integrity of your data.";
 
 export const securityTechTools = [
   {

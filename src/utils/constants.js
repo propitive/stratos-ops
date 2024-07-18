@@ -3,28 +3,45 @@ import aboutHandshake from "../images/icons/about/aboutHandshake.png";
 import aboutHourglass from "../images/icons/about/aboutHourglass.png";
 import aboutChef from "../images/icons/about/aboutChef.png";
 
+import check from "../images/icons/about/check.png";
+import checklist from "../images/icons/about/checklist.png";
+import cloud from "../images/icons/about/cloud.png";
+import cyber from "../images/icons/about/cyber.png";
+import improve from "../images/icons/about/improve.png";
+import piggybank from "../images/icons/about/piggybank.png";
+
 /////////////// ABOUT ///////////////
 
 export const aboutInfoCards = [
   {
-    icon: aboutChecklist,
+    icon: cyber,
     paragraph:
-      "We use high-quality, fresh ingredients. This includes fresh vegetables, premium meats, and high-quality cheeses. The dough and sauce are also made with care and attention to detail.",
+      "We stay at the forefront of cybersecurity and cloud advancements, leveraging the latest tools and methodologies to protect your business from evolving threats. Our solutions are designed to be agile and scalable, adapting to your unique needs as your business grows.",
   },
   {
-    icon: aboutHandshake,
+    icon: cloud,
     paragraph:
-      "Our commitment to exceptional customer service begins with transparent and open communication throughout every phase of the process. From the initial consultation to the day of your event, we prioritize your vision, actively listening to your needs and preferences.",
+      "We specialize in fortifying your cloud environment, implementing robust security measures to protect your data, applications, and infrastructure from unauthorized access, breaches, and malicious attacks. Our proactive approach ensures continuous monitoring and threat detection, allowing for swift incident response.",
   },
   {
-    icon: aboutHourglass,
+    icon: piggybank,
     paragraph:
-      "We understand the importance of your time, and our dedicated team ensures punctual arrival without compromising the precision and excellence that define us. We adhere to strict timelines, providing you with a seamless and easy experience. ",
+      "We understand the importance of maximizing your return on investment. Our solutions are designed to be cost-effective, optimizing your cloud resources and eliminating unnecessary expenses. We offer transparent pricing and flexible service models to meet your specific budget and requirements.",
   },
   {
-    icon: aboutChef,
+    icon: check,
     paragraph:
-      "With several years of invaluable experience in the industry, our seasoned team brings a wealth of knowledge to every pizza. Using specialized cooking techniques with our traditional brick ovens contributes to the unique and delicious flavor found in every bite.",
+      "We recognize that your cybersecurity and cloud needs may fluctuate. That's why we offer on-demand solutions that can be quickly deployed and scaled to address immediate challenges or capitalize on new opportunities. Our team is available to provide support and guidance whenever you need it.",
+  },
+  {
+    icon: improve,
+    paragraph:
+      "We go beyond simply implementing technology. We help you optimize your processes and systems to enhance efficiency, productivity, and security. Our team conducts comprehensive assessments to identify areas for improvement and implement best practices that drive tangible results.",
+  },
+  {
+    icon: checklist,
+    paragraph:
+      "We believe that one size does not fit all when it comes to cybersecurity and cloud services. Our team takes a personalized approach, tailoring our solutions to your specific industry, business model, and risk profile. We work closely with you to understand your unique challenges and objectives, ensuring that our solutions align with your overall strategy.",
   },
 ];
 

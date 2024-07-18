@@ -14,12 +14,15 @@ const DropdownItem = ({
 
   return (
     <>
-      <li className={"dropdown-item " + liClassName} key={keyValue}>
+      <li
+        className={"dropdown-item " + liClassName}
+        key={keyValue}
+        onClick={() => setIsActive(!isActive)}
+      >
         <p className="dropdown-item__title">{title}</p>
         <button
           className={"dropdown-item__button " + dropdownItemButton}
           type="button"
-          onClick={() => setIsActive(!isActive)}
         ></button>
       </li>
       <ul className="dropdown-item__bulletpoints">
