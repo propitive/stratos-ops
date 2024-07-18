@@ -188,9 +188,14 @@
   }
   .service-div-benefits__benefit {
     max-width: 135px;
+
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* padding: 5px; */
   }
   .service-div-benefits__container {
     max-width: 325px;
+    /* max-width: 305px; */
   }
   .service-div-benefits__image {
     height: 20px;
