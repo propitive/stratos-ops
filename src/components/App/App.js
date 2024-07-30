@@ -52,7 +52,7 @@ function App() {
           <Main handleOpenGetAQuote={handleOpenGetAQuote} />
         </Route>
       </Switch>
-      <Footer />
+      <Footer handleOpenGetAQuote={handleOpenGetAQuote} />
       {isActiveModal === "quote" && (
         <ModalGetAQuote
           handleCloseModal={handleCloseModal}

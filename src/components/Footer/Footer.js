@@ -5,7 +5,7 @@ import linkedIconHovered from "../../images/icons/iconLinkedinHovered.svg";
 import emailIcon from "../../images/icons/iconEmail.svg";
 import emailIconHovered from "../../images/icons/iconMailHovered.svg";
 
-function Footer() {
+function Footer({ handleOpenGetAQuote }) {
   const [isLinkedinHovered, setIsLinkedinHovered] = useState(false);
   const [isMailHovered, setIsMailHovered] = useState(false);
 
@@ -20,20 +20,13 @@ function Footer() {
             to="/about"
             style={{ textDecoration: "none", color: "#f5f0f0" }}
           >
-            <p className="footer__text">Services</p>
-          </Link>
-          <Link
-            to="/contact-form"
-            style={{ textDecoration: "none", color: "#f5f0f0" }}
-          >
             <p className="footer__text">About Us</p>
           </Link>
-          <Link
-            to="/gallery"
-            style={{ textDecoration: "none", color: "#f5f0f0" }}
-          >
-            <p className="footer__text">Contact Us</p>
-          </Link>
+
+          <p className="footer__text" onClick={handleOpenGetAQuote}>
+            Contact Us
+          </p>
+
           <div className="footer__icons">
             <a
               href="https://www.linkedin.com/company/stratosoperations"
@@ -67,43 +60,37 @@ function Footer() {
         </div>
         <div className="footer__column">
           <Link
-            to="/menu/pizza"
+            to="/services/securityConsulting"
             style={{ textDecoration: "none", color: "#f5f0f0" }}
           >
             <p className="footer__text">Security Consulting and Hardening</p>
           </Link>
           <Link
-            to="/menu/appetizer"
+            to="/services/cloudMigration"
             style={{ textDecoration: "none", color: "#f5f0f0" }}
           >
             <p className="footer__text">Cloud Migration and Implementations</p>
           </Link>
           <Link
-            to="/menu/salad"
+            to="/services/ciCd"
             style={{ textDecoration: "none", color: "#f5f0f0" }}
           >
             <p className="footer__text">CI/CD Processes</p>
           </Link>
           <Link
-            to="/menu/dessert"
+            to="/services/backupAndRecovery"
             style={{ textDecoration: "none", color: "#f5f0f0" }}
           >
             <p className="footer__text">Backup and Recovery</p>
           </Link>
-          <Link
-            to="/menu/pasta"
-            style={{ textDecoration: "none", color: "#f5f0f0" }}
-          >
-            <p className="footer__text"></p>
-          </Link>
         </div>
         <div className="footer__column">
-          <Link
+          {/* <Link
             to="/contact-form"
             style={{ textDecoration: "none", color: "#f5f0f0" }}
           >
             <p className="footer__text">Contact</p>
-          </Link>
+          </Link> */}
         </div>
         <p className="footer__author">
           Developed by{" "}
